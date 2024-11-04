@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { FaLinkedin, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -18,11 +19,17 @@ function App() {
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="navbar-left">
-          <button className="navbar-button">Michał Pikulski</button>
+          <Link to="/">
+            <button className="navbar-button">Michał Pikulski</button>
+          </Link>
         </div>
         <div className="navbar-right">
-          <button className="navbar-button">About Me</button>
-          <button className="navbar-button">Projects</button>
+          <Link to="/about">
+            <button className="navbar-button">About Me</button>
+          </Link>
+          <Link to="/projects">
+            <button className="navbar-button">Projects</button>
+          </Link>
         </div>
       </nav>
 
@@ -78,7 +85,14 @@ function App() {
                 fontSize: project.fontSize,
               }}
             >
-              <h3>{project.name}</h3>
+              <h3>
+                <Link
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  to={project.link}
+                >
+                  {project.name}
+                </Link>
+              </h3>
               <img
                 src={`${process.env.PUBLIC_URL}/projects/${project.image}.jpg`}
                 alt={project.name}

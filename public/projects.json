@@ -9,7 +9,8 @@
     "image": "prohibition_time",
     "backgroundColor": "#213221",
     "fontFamily": "Arial, sans-serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "prohibition-time"
   },
   {
     "name": "MOONSOUP©",
@@ -21,7 +22,8 @@
     "image": "moonsoup",
     "backgroundColor": "#322132",
     "fontFamily": "Verdana, sans-serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "moonsoup"
   },
   {
     "name": "WHEN THE DUSK COMES©",
@@ -33,7 +35,8 @@
     "image": "when_the_dusk_comes",
     "backgroundColor": "#322121",
     "fontFamily": "Courier New, monospace",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "when-the-dusk-comes"
   },
   {
     "name": "INTO INFERNO©",
@@ -45,7 +48,8 @@
     "image": "into_inferno",
     "backgroundColor": "#322821",
     "fontFamily": "Georgia, serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "into-inferno"
   },
   {
     "name": "COAL IN MY HEART©",
@@ -57,7 +61,8 @@
     "image": "coal_in_my_heart",
     "backgroundColor": "#212132",
     "fontFamily": "Tahoma, sans-serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "coal-in-my-heart"
   },
   {
     "name": "RAZEM RPG©",
@@ -69,7 +74,8 @@
     "image": "razem_rpg",
     "backgroundColor": "#323221",
     "fontFamily": "Times New Roman, serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "razem-rpg"
   },
   {
     "name": "CRITICAL FIGHTER©",
@@ -81,7 +87,8 @@
     "image": "critical_fighter",
     "backgroundColor": "#213228",
     "fontFamily": "Helvetica, sans-serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "critical-fighter"
   },
   {
     "name": "SCYTHE OF TIME©",
@@ -93,6 +100,7 @@
     "image": "scythe_of_time",
     "backgroundColor": "#213232",
     "fontFamily": "Roboto, sans-serif",
-    "fontSize": "16px"
+    "fontSize": "16px",
+    "link": "scythe-of-time"
   }
 ]
