@@ -46,10 +46,23 @@ body {
   gap: 20px; /* Adjust spacing between photo and text */
 }
 
+@media (max-width: 874px) {
+  .profile {
+    display: block;
+  }
+}
+
 .profile-photo {
   width: 450px; /* 3 times the original 150px */
   height: 450px;
   border-radius: 50%;
+}
+
+@media (max-width: 490px) {
+  .profile-photo {
+    width: 200px; /* 3 times the original 150px */
+    height: 200px;
+  }
 }
 
 .profile-text h1 {
