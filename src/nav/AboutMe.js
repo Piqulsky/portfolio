@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaLink } from "react-icons/fa";
+import "./AboutMe.css";
 
 function AboutMe() {
   return (
@@ -24,7 +25,36 @@ function AboutMe() {
 
       {/* Separator */}
       <div className="separator"></div>
-      <h1>PAGE IN DEVELOPMENT</h1>
+
+      {/* About Me Section */}
+      <div className="about-me-page">
+        <h2>About Me</h2>
+        <p>
+          Games have long been underappreciated, yet they hold immense potential
+          as tools for change. As one of the most immersive media available
+          today, video games uniquely blend storytelling, education, and
+          entertainment. Well-crafted games can engage players deeply, making
+          them both enjoyable and impactful. With applications in psychology and
+          neuroscience, games are poised to shape the future of therapy,
+          education, and social change, advancing these fields in meaningful
+          ways.
+        </p>
+        <p>
+          Hello! My name is Michał Pikulski, and I am a passionate game designer
+          and developer. I am dedicated to creating games that are beneficial to
+          the players. I'm 19 years old and already I have created projects,
+          both solo and in teams, that are advanced and tap into what attracts
+          players to games.
+        </p>
+        <p>
+          Currently I am studying at Breda University of Applied Sciences in the
+          Netherlands. Through the Creative Media and Game Technologies course,
+          I am learning how to create games that are not only fun but also
+          interact with players on multiple levels - emotionally, socially,
+          physically and psychologically.
+        </p>
+      </div>
+
       {/* Footer */}
       <footer className="footer">
         <a
