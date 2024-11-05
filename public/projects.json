@@ -8,7 +8,7 @@
     "seeAt": "https://www.youtube.com/@prohibitiontimegame9777",
     "image": "prohibition_time",
     "backgroundColor": "#213221",
-    "fontFamily": "Arial, sans-serif",
+    "fontFamily": "Courier New, monospace",
     "fontSize": "16px",
     "link": "prohibition-time"
   },
@@ -21,7 +21,7 @@
     "seeAt": "https://vimeo.com/888257966",
     "image": "moonsoup",
     "backgroundColor": "#322132",
-    "fontFamily": "Verdana, sans-serif",
+    "fontFamily": "Airal, sans-serif",
     "fontSize": "16px",
     "link": "moonsoup"
   },
@@ -34,7 +34,7 @@
     "seeAt": "https://piqulsky.itch.io/whentheduskcomes",
     "image": "when_the_dusk_comes",
     "backgroundColor": "#322121",
-    "fontFamily": "Courier New, monospace",
+    "fontFamily": "Georgia, serif",
     "fontSize": "16px",
     "link": "when-the-dusk-comes"
   },
@@ -47,8 +47,8 @@
     "seeAt": "https://screentop.gg/@drummermichal/into-inferno",
     "image": "into_inferno",
     "backgroundColor": "#322821",
-    "fontFamily": "Georgia, serif",
-    "fontSize": "16px",
+    "fontFamily": "Times New Roman, serif",
+    "fontSize": "18px",
     "link": "into-inferno"
   },
   {
@@ -73,8 +73,8 @@
     "seeAt": "",
     "image": "razem_rpg",
     "backgroundColor": "#323221",
-    "fontFamily": "Times New Roman, serif",
-    "fontSize": "16px",
+    "fontFamily": "Garamond, serif",
+    "fontSize": "18px",
     "link": "razem-rpg"
   },
   {
@@ -86,7 +86,7 @@
     "seeAt": "",
     "image": "critical_fighter",
     "backgroundColor": "#213228",
-    "fontFamily": "Helvetica, sans-serif",
+    "fontFamily": "Trebuchet MS, sans-serif",
     "fontSize": "16px",
     "link": "critical-fighter"
   },
@@ -99,8 +99,8 @@
     "seeAt": "",
     "image": "scythe_of_time",
     "backgroundColor": "#213232",
-    "fontFamily": "Roboto, sans-serif",
-    "fontSize": "16px",
+    "fontFamily": "Verdana, sans-serif",
+    "fontSize": "14px",
     "link": "scythe-of-time"
   }
 ]
