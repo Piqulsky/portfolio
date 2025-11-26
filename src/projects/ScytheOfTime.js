@@ -2,29 +2,13 @@ import React from "react";
 import { FaLinkedin, FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./projects.css";
+import NavBar from "../reusable/NavBar";
+import Footer from "../reusable/Footer";
 
 function ScytheOfTime() {
   return (
     <div className="ScytheOfTime">
-      {/* Navigation Bar */}
-      <nav className="navbar">
-        <div className="navbar-left">
-          <Link to="/">
-            <button className="navbar-button">Michał Pikulski</button>
-          </Link>
-        </div>
-        <div className="navbar-right">
-          <Link to="/about">
-            <button className="navbar-button">About Me</button>
-          </Link>
-          <Link to="/projects">
-            <button className="navbar-button">Projects</button>
-          </Link>
-        </div>
-      </nav>
-
-      {/* Separator */}
-      <div className="separator"></div>
+      <NavBar />
 
       {/* Wide Photo */}
       <div className="project-photo">
@@ -115,23 +99,7 @@ function ScytheOfTime() {
         </p>
       </div>
 
-      {/* Footer */}
-      <footer className="footer">
-        <a
-          href="https://www.linkedin.com/in/piqulsky/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin size={30} color="white" />
-        </a>
-        <a
-          href="https://linktr.ee/Piqulsky"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLink size={30} color="white" />
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }

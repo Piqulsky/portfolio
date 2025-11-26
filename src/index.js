@@ -14,6 +14,7 @@ import CoalInMyHeart from "./projects/CoalInMyHeart";
 import Razem from "./projects/Razem";
 import CriticalFighter from "./projects/CriticalFighter";
 import ScytheOfTime from "./projects/ScytheOfTime";
+import Resonance from "./projects/Resonance";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <Route path="about" element={<AboutMe />} />
         <Route path="projects" element={<Projects />} />
         <Route path="*" element={<App />} />
+        <Route path="resonance" element={<Resonance />} />
         <Route path="prohibition-time" element={<ProhibitionTime />} />
         <Route path="moonsoup" element={<Moonsoup />} />
         <Route path="when-the-dusk-comes" element={<WhenTheDuskComes />} />

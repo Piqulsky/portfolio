@@ -3,9 +3,13 @@
   max-width: 800px;
   margin: 0 auto;
   color: white;
+  z-index: 1;
 }
 
-.project-content h1,
+.project-content h1 {
+  font-size: 64px;
+  margin-top: 10px;
+}
 .project-content h2 {
   margin-top: 20px;
 }
@@ -22,7 +26,12 @@
 }
 
 .wide-photo {
-  object-fit: cover;
+  height: 500px;
+}
+
+.Resonance {
+  font-family: "Lucida Console", monospace;
+  background-color: #520001;
 }
 
 .ProhibitionTime {
