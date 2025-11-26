@@ -1,8 +1,37 @@
 [
   {
-    "name": "PROHIBITION TIME©",
+    "name": "RESONANCE",
+    "description": "“Resonance” A fast twin-stick action game. Use your telekinetic voice to lift and control objects and enemies, allowing you to shield yourself and fight! Escape the facility trying to keep you under its control. ",
+    "role": "Level designer, accessibility designer",
+    "responsibleFor": [
+      "Designing levels to introduce and teach game mechanics",
+      "Creating engaging and challenging level layouts",
+      "Collaborating with the environment artists to ensure thematic consistency",
+      "Balancing difficulty progression throughout the game",
+      "Implementing accessibility features to enhance player experience"
+    ],
+    "time": "May 2024 - Jun 2024",
+    "stage": "Completed",
+    "seeAt": "https://buas.itch.io/resonance",
+    "image": "resonance",
+    "backgroundColor": "#520001",
+    "fontFamily": "Lucida Console, monospace",
+    "fontSize": "16px",
+    "link": "/resonance",
+    "featured": true
+  },
+  {
+    "name": "PROHIBITION TIME",
     "description": "“Prohibition Time” is an online multiplayer game. The game combines elements of the social deduction game “Mafia” (also known as “Werewolf”) extended by our team with cards and special actions.",
-    "role": "Backend developer",
+    "role": "Systems designer, backend developer",
+    "responsibleFor": [
+      "Creating turn-based game mechanics and systems",
+      "Designing deck of cards and drawing system",
+      "Developoing the system for assignment of roles and win conditions",
+      "Implementing a multi-state and multi-transition state machine for game states",
+      "Coding backend server logic using Node.js and WebSocket",
+      "Collaborating with frontend developers to ensure seamless integration and provide stable API"
+    ],
     "time": "Oct 2021 - Mar 2023",
     "stage": "Completed",
     "seeAt": "https://www.youtube.com/@prohibitiontimegame9777",
@@ -10,12 +39,20 @@
     "backgroundColor": "#213221",
     "fontFamily": "Courier New, monospace",
     "fontSize": "16px",
-    "link": "prohibition-time"
+    "link": "/prohibition-time",
+    "featured": true
   },
   {
-    "name": "MOONSOUP©",
+    "name": "MOONSOUP",
     "description": "“Moonsoup” is a 2D simulator game about running a potion shop set in a medieval fantasy setting. The game combines logical puzzles and mini-games in a design that focuses on creating a casual and relaxing gameplay.",
-    "role": "Leader, designer, developer",
+    "role": "Game designer, programmer",
+    "responsibleFor": [
+      "Co-creating a tree-based potion crafting system",
+      "Designing mini-games for potion brewing and shop management",
+      "Implementing dialogue interactions with NPCs",
+      "Creating a hub level for the potion shop",
+      "Programming game mechanics using Unity and C#"
+    ],
     "time": "Oct 2022 - Jan 2023",
     "stage": "Completed",
     "seeAt": "https://vimeo.com/888257966",
@@ -23,12 +60,18 @@
     "backgroundColor": "#322132",
     "fontFamily": "Airal, sans-serif",
     "fontSize": "16px",
-    "link": "moonsoup"
+    "link": "/moonsoup",
+    "featured": true
   },
   {
-    "name": "WHEN THE DUSK COMES©",
+    "name": "WHEN THE DUSK COMES",
     "description": "“When the Dusk Comes” is a 2D advanced clicker game where the player tries to save as many people as possible before the apocalypse. The game combines a simple mechanic of button clicking with a broad system of saving humanity and its heritage and technology trees.",
-    "role": "Leader, designer, developer",
+    "role": "Game designer, programmer",
+    "responsibleFor": [
+      "Creating resource management and upgrade systems",
+      "Designing scoring system based on multiple features of the game",
+      "Collaborating in a small team within a short time frame to deliver a complete experience"
+    ],
     "time": "Dec 2023",
     "stage": "Completed",
     "seeAt": "https://piqulsky.itch.io/whentheduskcomes",
@@ -36,10 +79,11 @@
     "backgroundColor": "#322121",
     "fontFamily": "Georgia, serif",
     "fontSize": "16px",
-    "link": "when-the-dusk-comes"
+    "link": "/when-the-dusk-comes",
+    "featured": true
   },
   {
-    "name": "INTO INFERNO©",
+    "name": "INTO INFERNO",
     "description": "“Into Inferno” is a 6 player board game set in the world of Dante’s 'Divine Comedy'. The gameplay focuses on adapting the roguelike genre from video games by randomizing each game with a variety of cards that affect the current and next attempts to win.",
     "role": "Sole creator",
     "time": "Oct 2023 - Now",
@@ -49,10 +93,11 @@
     "backgroundColor": "#322821",
     "fontFamily": "Times New Roman, serif",
     "fontSize": "18px",
-    "link": "into-inferno"
+    "link": "/into-inferno",
+    "featured": false
   },
   {
-    "name": "COAL IN MY HEART©",
+    "name": "COAL IN MY HEART",
     "description": "“Coal in My Heart” is a 2D side-scrolling platformer game that mixes fighting system with survival mechanics. The player has to fight swarms of living icicles and snowflakes to reach the heating system, guarded by a boss who must be defeated to fix it.",
     "role": "Sole creator",
     "time": "Dec 2023 - Jan 2024",
@@ -62,10 +107,11 @@
     "backgroundColor": "#212132",
     "fontFamily": "Tahoma, sans-serif",
     "fontSize": "16px",
-    "link": "coal-in-my-heart"
+    "link": "/coal-in-my-heart",
+    "featured": false
   },
   {
-    "name": "RAZEM RPG©",
+    "name": "RAZEM RPG",
     "description": "“Razem” is a universal role-playing game system. It is based on a six-sided dice rolling system that adapts flexibly to different game settings, placing players in the story as protagonists.",
     "role": "Sole creator",
     "time": "Jun 2023 - Sep 2023",
@@ -75,10 +121,11 @@
     "backgroundColor": "#323221",
     "fontFamily": "Garamond, serif",
     "fontSize": "18px",
-    "link": "razem-rpg"
+    "link": "/razem-rpg",
+    "featured": false
   },
   {
-    "name": "CRITICAL FIGHTER©",
+    "name": "CRITICAL FIGHTER",
     "description": "“Critical Fighter” is a 3D top-down fighting game concept set in the Critical Role universe for up to 12 players. Each game can be different with random battlefields and a variety of characters.",
     "role": "Sole creator",
     "time": "Jan 2023 - May 2023",
@@ -88,10 +135,11 @@
     "backgroundColor": "#213228",
     "fontFamily": "Trebuchet MS, sans-serif",
     "fontSize": "16px",
-    "link": "critical-fighter"
+    "link": "/critical-fighter",
+    "featured": false
   },
   {
-    "name": "SCYTHE OF TIME©",
+    "name": "SCYTHE OF TIME",
     "description": "“Scythe of Time” is a 2D tactical game concept that explores planning mechanics. Each level has to be completed by planning movements beforehand while everything is frozen in time.",
     "role": "Sole creator",
     "time": "Feb 2024",
@@ -101,6 +149,7 @@
     "backgroundColor": "#213232",
     "fontFamily": "Verdana, sans-serif",
     "fontSize": "14px",
-    "link": "scythe-of-time"
+    "link": "/scythe-of-time",
+    "featured": false
   }
 ]
