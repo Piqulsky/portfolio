@@ -1,0 +1,62 @@
+.AboutMeTitle {
+  margin-top: 100px;
+  width: 100%;
+  border-bottom: white 2px solid;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.AboutMeContent {
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.AboutMeImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-right: 50px;
+  border: white 2px solid;
+}
+.AboutMeText {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.ResumeTitle {
+  margin-top: 100px;
+  width: 100%;
+  border-bottom: white 2px solid;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.ResumeSubtitle {
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.ResumeIMGs {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ResumeIMG {
+  width: 600px;
+  height: 800px;
+  margin-top: 20px;
+  border: white 2px solid;
+}

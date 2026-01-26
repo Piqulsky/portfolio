@@ -1,0 +1,17 @@
+.NavbarElementExpandable {
+  display: flex;
+  flex-direction: column;
+}
+
+.NavExpansion {
+  background-color: #111111;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavExpansion .NavElement {
+  border: white 2px solid;
+  border-top: none;
+  padding: 10px;
+}

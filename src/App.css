@@ -1,13 +1,12 @@
-.App {
+body {
+  margin: 0px;
+  padding: 0px;
   color: white;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
 
-body {
-  margin: 0px;
-  padding: 0px;
+  background-color: #222222;
 }
 
 a {
