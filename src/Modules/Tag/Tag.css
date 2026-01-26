@@ -1,0 +1,17 @@
+.Tag {
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  background-color: #111111;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  border: white 2px solid;
+}
+
+.TagIcon {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin-left: 10px;
+}

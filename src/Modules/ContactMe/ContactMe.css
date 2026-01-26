@@ -1,0 +1,57 @@
+.ContactMe {
+  margin: auto;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.ContactMeTitle {
+  width: 100%;
+  border-bottom: white 2px solid;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.ContactMeSubtitle {
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.ContactMeLinks {
+  margin-top: 60px;
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.ContactMeDowloadResume {
+  margin-top: 20px;
+  background-color: #111111;
+  padding: 20px 40px 20px 40px;
+  text-decoration: underline;
+}
+
+.ContactMeMethod {
+  margin-top: 20px;
+  background-color: #111111;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+}
+
+.ContactIcon {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ContactText {
+  text-decoration: underline;
+}

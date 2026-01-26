@@ -1,0 +1,116 @@
+.Project {
+  margin-top: 20px;
+  padding: 5px;
+  padding-bottom: 20px;
+  border-bottom: white 1px solid;
+  display: flex;
+}
+
+.ProjectLeft {
+  width: 61.8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectRight {
+  width: 38.2%;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectTitle {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #111111;
+  padding: 10px;
+}
+
+.ProjectThumbnail {
+  height: 400px;
+  margin-top: 10px;
+  border: white 2px solid;
+}
+
+.ProjectOneliner {
+  padding: 23px 20px 23px 20px;
+  font-size: 17px;
+  background-color: #111111;
+  flex-grow: 1;
+}
+
+.ProjectRole {
+  font-size: 30px;
+  background-color: #111111;
+  padding: 10px;
+}
+
+.ProjectResponsibilities {
+  background-color: #111111;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ProjectResponsibilitiesTitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul li {
+  margin-top: 20px;
+}
+
+.ProjectTags {
+  background-color: #111111;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ProjectTagsTitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ProjectTagsList {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProjectButtons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.ProjectButtonView {
+  margin-right: 10px;
+  padding: 20px 40px 20px 40px;
+  background-color: #111111;
+  font-weight: bold;
+  text-decoration: underline;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ProjectButtonSteam {
+  margin-right: 10px;
+  padding: 20px 40px 20px 40px;
+  background-color: #00adee;
+  font-weight: bold;
+  text-decoration: underline;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ProjectButtonItch {
+  margin-right: 10px;
+  padding: 20px 40px 20px 40px;
+  background-color: #de425c;
+  font-weight: bold;
+  text-decoration: underline;
+  flex-grow: 1;
+  text-align: center;
+}
