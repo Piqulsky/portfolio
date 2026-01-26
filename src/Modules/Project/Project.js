@@ -9,15 +9,16 @@ function Project({
   role,
   responsibilities,
   tags,
-  steam,
-  itch,
+  steamLink,
+  itchLink,
+  pageLink,
   bgColor,
 }) {
   return (
     <div className="Project">
       <div className="ProjectLeft">
         <div className="ProjectTitle" style={{ backgroundColor: bgColor }}>
-          {title}
+          "{title}"
         </div>
         <div className="ProjectThumbnail">IMG</div>
         <div className="ProjectOneliner" style={{ backgroundColor: bgColor }}>
@@ -42,22 +43,22 @@ function Project({
         <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
           <div className="ProjectTagsTitle">Skills:</div>
           <div className="ProjectTagsList">
-            {tags.map((tag, index) => (
+            {tags.slice(0, 3).map((tag, index) => (
               <Tag name={tag} />
             ))}
           </div>
         </div>
         <div className="ProjectButtons">
-          {steam && (
+          {steamLink && (
             <div className="ProjectButtonSteam">
-              <NavLink to="/">
+              <NavLink to={steamLink}>
                 <NavLink to="/">Steam</NavLink>
               </NavLink>
             </div>
           )}
-          {itch && (
+          {itchLink && (
             <div className="ProjectButtonItch">
-              <NavLink to="/">
+              <NavLink to={itchLink}>
                 <NavLink to="/">Itch</NavLink>
               </NavLink>
             </div>
@@ -66,7 +67,7 @@ function Project({
             className="ProjectButtonView"
             style={{ backgroundColor: bgColor }}
           >
-            <NavLink to="/">Info</NavLink>
+            <NavLink to={pageLink}>Info</NavLink>
           </div>
         </div>
       </div>

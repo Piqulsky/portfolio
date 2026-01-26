@@ -64,13 +64,13 @@ ul li {
 
 .ProjectTags {
   background-color: #111111;
-  padding: 10px;
   margin-top: 10px;
 }
 
 .ProjectTagsTitle {
   font-weight: bold;
   font-size: 20px;
+  padding: 10px;
 }
 
 .ProjectTagsList {

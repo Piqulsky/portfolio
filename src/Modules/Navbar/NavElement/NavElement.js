@@ -3,9 +3,9 @@ import "./NavElement.css";
 
 function NavElement({ name, link }) {
   return (
-    <div className="NavElement">
-      <NavLink to={link}>{name}</NavLink>
-    </div>
+    <NavLink to={link}>
+      <div className="NavElement">{name}</div>
+    </NavLink>
   );
 }
 

@@ -1,0 +1,19 @@
+.ProjectPageBanner {
+  margin-top: 60px;
+  height: 300px;
+  border: white solid 2px;
+}
+
+.ProjectPageTitle {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.ProjectPageTags {
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

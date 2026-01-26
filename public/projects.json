@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Resonance",
+    "thumbnail": "/",
+    "oneliner": "A fast twin-stick action game. Use your telekinetic voice to lift and control objects and enemies, allowing you to shield yourself and fight! Escape the facility trying to keep you under its control.",
+    "role": "Level Designer",
+    "responsibilities": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+    ],
+    "tags": [
+      "Unreal Engine 5",
+      "Level Design",
+      "Scrum",
+      "Visual Scripting",
+      "Perforce",
+      "Game Design",
+      "Miro"
+    ],
+    "steamLink": "/",
+    "itchLink": "",
+    "pageLink": "/project/resonance",
+    "bgColor": "#220000",
+    "featured": true
+  },
+  {
+    "title": "Prohibition Time",
+    "thumbnail": "/",
+    "oneliner": "An online multiplayer game. The game combines elements of the social deduction game “Mafia” (also known as “Werewolf”) extended by our team with cards and special actions.",
+    "role": "Technical Designer",
+    "responsibilities": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+    ],
+    "tags": ["React Js", "Tech Design", "Game Design", "Git"],
+    "steamLink": "",
+    "itchLink": "",
+    "pageLink": "/project/prohibitiontime",
+    "bgColor": "#002200",
+    "featured": true
+  },
+  {
+    "title": "Moonsoup",
+    "thumbnail": "/",
+    "oneliner": "A 2D simulator game about running a potion shop set in a medieval fantasy setting. The game combines logical puzzles and mini-games in a design that focuses on creating a casual and relaxing gameplay.",
+    "role": "System Designer",
+    "responsibilities": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+    ],
+    "tags": ["Unity", "System Design", "Git", "C#"],
+    "steamLink": "",
+    "itchLink": "",
+    "pageLink": "/project/moonsoup",
+    "bgColor": "#220022",
+    "featured": true
+  },
+  {
+    "title": "When the Dusk Comes",
+    "thumbnail": "/",
+    "oneliner": "A 2D advanced clicker game where the player tries to save as many people as possible before the apocalypse. The game combines a simple mechanic of button clicking with a broad system of saving humanity, heritage, and technology trees.",
+    "role": "Game Designer",
+    "responsibilities": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+    ],
+    "tags": ["Godot Engine", "System Design", "Game Design"],
+    "steamLink": "/",
+    "itchLink": "",
+    "pageLink": "/project/whentheduskcomes",
+    "bgColor": "#222200",
+    "featured": false
+  },
+  {
+    "title": "Coal in my Heart",
+    "thumbnail": "/",
+    "oneliner": "A 2D side-scrolling platformer game that mixes a fighting system with survival mechanics. The player has to fight swarms of living icicles and snowflakes to reach the heating system, guarded by a boss who must be defeated to fix it.",
+    "role": "Game Designer",
+    "responsibilities": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+    ],
+    "tags": ["Godot Engine", "Game Design", "Combat Design"],
+    "steamLink": "/",
+    "itchLink": "",
+    "pageLink": "/project/coalinmyheart",
+    "bgColor": "#000022",
+    "featured": false
+  }
+]
