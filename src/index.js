@@ -14,11 +14,13 @@ import DesignBible from "./Pages/OtherEndeavors/DesignBible/DesignBible";
 import GameJams from "./Pages/OtherEndeavors/GameJams/GameJams";
 import GameMastering from "./Pages/OtherEndeavors/GameMastering/GameMastering";
 import MiroTemplates from "./Pages/OtherEndeavors/MiroTemplates/MiroTemplates";
+import ScrollToTop from "./Modules/FlowControl/ScrollToTop";
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
+    <ScrollToTop />
     <Routes>
       <Route index element={<App />} />
       <Route path="*" element={<App />} />

@@ -153,15 +153,25 @@ function ProhibitionTime() {
           <div className="ProjectPageHeader">Pillars</div>
           <div className="ProjectPageSectionMultiContent">
             <div className="ProjectPageSectionMultiContentPiece">
-              <div className="ProjectPageSectionMultiContentPieceHeader">-</div>
+              <div className="ProjectPageSectionMultiContentPieceHeader">
+                Information dynamics
+              </div>
               <div className="ProjectPageSectionMultiContentPieceContent">
-                -
+                Controlling what information is available to the players and
+                giving them clear feedback on current state of the game as well
+                as results of theirs and other players' actions is crucial for a
+                social game that gets easily chaotic and hard to keep track of
+                because of the social element.
               </div>
             </div>
             <div className="ProjectPageSectionMultiContentPiece">
-              <div className="ProjectPageSectionMultiContentPieceHeader">-</div>
+              <div className="ProjectPageSectionMultiContentPieceHeader">
+                Easy multiplayer
+              </div>
               <div className="ProjectPageSectionMultiContentPieceContent">
-                -
+                For this game to be a successful interpretation of the tabletop
+                it needs to flawlessly play as a multiplayer game and feel like
+                a tactile table.
               </div>
             </div>
           </div>
