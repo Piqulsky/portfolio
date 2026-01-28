@@ -15,6 +15,7 @@ import GameJams from "./Pages/OtherEndeavors/GameJams/GameJams";
 import GameMastering from "./Pages/OtherEndeavors/GameMastering/GameMastering";
 import MiroTemplates from "./Pages/OtherEndeavors/MiroTemplates/MiroTemplates";
 import ScrollToTop from "./Modules/FlowControl/ScrollToTop";
+import WIP from "./Pages/WIP/WIP";
 
 const root = document.getElementById("root");
 
@@ -31,13 +32,28 @@ ReactDOM.createRoot(root).render(
       <Route path="/project/resonance" element={<Resonance />} />
       <Route path="/project/prohibitiontime" element={<ProhibitionTime />} />
       <Route path="/project/moonsoup" element={<Moonsoup />} />
-      <Route path="/project/whentheduskcomes" element={<WhenTheDuskComes />} />
-      <Route path="/project/coalinmyheart" element={<CoalInMyHeart />} />
-      <Route path="/other/adventurersleague" element={<AdventurersLeague />} />
-      <Route path="/other/designbible" element={<DesignBible />} />
-      <Route path="/other/gamejams" element={<GameJams />} />
-      <Route path="/other/gamemastering" element={<GameMastering />} />
-      <Route path="/other/mirotemplates" element={<MiroTemplates />} />
+      <Route
+        path="/project/whentheduskcomes"
+        element={<WIP /> /*<WhenTheDuskComes />*/}
+      />
+      <Route
+        path="/project/coalinmyheart"
+        element={<WIP /> /*<CoalInMyHeart />*/}
+      />
+      <Route
+        path="/other/adventurersleague"
+        element={<WIP /> /*<AdventurersLeague />*/}
+      />
+      <Route path="/other/designbible" element={<WIP /> /*<DesignBible />*/} />
+      <Route path="/other/gamejams" element={<WIP /> /*<GameJams />*/} />
+      <Route
+        path="/other/gamemastering"
+        element={<WIP /> /*<GameMastering />*/}
+      />
+      <Route
+        path="/other/mirotemplates"
+        element={<WIP /> /*<MiroTemplates />*/}
+      />
     </Routes>
   </BrowserRouter>,
 );
