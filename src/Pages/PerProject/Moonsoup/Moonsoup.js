@@ -27,10 +27,12 @@ function Moonsoup() {
       <Navbar />
       <div className="ProjectPageBanner">BANNER</div>
       <div className="ProjectPageTitle">{moonsoupProject?.title}</div>
-      <div className="ProjectPageTags">
-        {moonsoupProject?.tags.map((tag, index) => (
-          <Tag name={tag} />
-        ))}
+      <div className="ProjectPageCenter">
+        <div className="ProjectPageTags">
+          {moonsoupProject?.tags.map((tag, index) => (
+            <Tag name={tag} />
+          ))}
+        </div>
       </div>
       <Footer />
     </div>

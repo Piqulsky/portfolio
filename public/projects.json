@@ -34,7 +34,15 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
     ],
-    "tags": ["React Js", "Tech Design", "Game Design", "Git"],
+    "tags": [
+      "React Js",
+      "Tech Design",
+      "Game Design",
+      "Git",
+      "Multiplayer",
+      "Tabletop Design",
+      "System Design"
+    ],
     "steamLink": "",
     "itchLink": "",
     "pageLink": "/project/prohibitiontime",
@@ -51,7 +59,15 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
     ],
-    "tags": ["Unity", "System Design", "Git", "C#"],
+    "tags": [
+      "Unity",
+      "System Design",
+      "Git",
+      "C#",
+      "Game Design",
+      "Puzzle Design",
+      "Quest Design"
+    ],
     "steamLink": "",
     "itchLink": "",
     "pageLink": "/project/moonsoup",
