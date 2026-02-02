@@ -33,10 +33,6 @@ ReactDOM.createRoot(root).render(
       <Route path="/project/prohibitiontime" element={<ProhibitionTime />} />
       <Route path="/project/moonsoup" element={<Moonsoup />} />
       <Route
-        path="/project/whentheduskcomes"
-        element={<WIP /> /*<WhenTheDuskComes />*/}
-      />
-      <Route
         path="/project/coalinmyheart"
         element={<WIP /> /*<CoalInMyHeart />*/}
       />
