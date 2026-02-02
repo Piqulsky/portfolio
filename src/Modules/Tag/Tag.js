@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import "./Tag.css";
 
-function Tag({ name, iconLink }) {
+function Tag({ name }) {
   let link = name.split(" ").join("");
   link = link.charAt(0).toLowerCase() + link.slice(1);
 
@@ -9,7 +9,13 @@ function Tag({ name, iconLink }) {
     <NavLink to={`/projects/${link}`}>
       <div className="Tag">
         {name}
-        <div className="TagIcon"></div>
+        <div>
+          <img
+            className="TagIcon"
+            src={process.env.PUBLIC_URL + "/icons/" + link + ".png"}
+            alt={`${name} icon`}
+          />
+        </div>
       </div>
     </NavLink>
   );

@@ -46,12 +46,12 @@
 .ContactIcon {
   width: 32px;
   height: 32px;
-  background-color: white;
   margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
 }
 
 .ContactText {
+  margin-top: 2px;
   text-decoration: underline;
 }

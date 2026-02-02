@@ -16,13 +16,21 @@ function ContactMe() {
         <div className="ContactMeContact">
           Contact
           <div className="ContactMeMethod">
-            <div className="ContactIcon"></div>
+            <img
+              src={process.env.PUBLIC_URL + "/icons/mail.png"}
+              className="ContactIcon"
+              alt="Email icon"
+            />
             <div className="ContactText">
               <a href="mailto:piqulsky@gmail.com">piqulsky@gmail.com</a>
             </div>
           </div>
           <div className="ContactMeMethod">
-            <div className="ContactIcon"></div>
+            <img
+              src={process.env.PUBLIC_URL + "/icons/linkedIn.png"}
+              className="ContactIcon"
+              alt="LinkedIn icon"
+            />
             <div className="ContactText">
               <a href="https://www.linkedin.com/in/piqulsky/">/in/piqulsky/</a>
             </div>
