@@ -25,7 +25,7 @@ function Home() {
           <div className="IntroVideo">
             <video autoPlay loop muted>
               <source
-                src={process.env.PUBLIC_URL + "/Showreel.mp4"}
+                src={process.env.PUBLIC_URL + "/showreel.mp4"}
                 type="video/mp4"
               />
             </video>
