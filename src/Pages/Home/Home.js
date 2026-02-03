@@ -22,7 +22,14 @@ function Home() {
       <Navbar />
       <div className="HomeContent">
         <div className="Intro">
-          {/* Video Background */}
+          <div className="IntroVideo">
+            <video autoPlay loop muted>
+              <source
+                src={process.env.PUBLIC_URL + "/Showreel.mp4"}
+                type="video/mp4"
+              />
+            </video>
+          </div>
           <div className="IntroName">
             Michał Pikulski
             <div className="IntroJobTitle">Game Designer</div>

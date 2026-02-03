@@ -10,42 +10,54 @@ function AboutMe() {
       <div className="AboutMeContent">
         <div className="AboutMeText">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            scelerisque pellentesque neque sit amet mattis. Nunc et pulvinar
-            massa, nec maximus tortor. Curabitur efficitur, risus id dignissim
-            interdum, ex ex mattis est, ac gravida metus nisi vel ligula.
-            Quisque accumsan, neque sed gravida fringilla, nisl odio suscipit
-            enim, vitae molestie nibh neque sed nulla.{" "}
+            Hello there! I'm Michał and I'm a game designer. I have been
+            creating games for more than 5 years now and what started as a hobby
+            has now become my professional passion. I started out learning
+            software and web development, but quickly after finishing the
+            school, I realized that these fields are not fit for my creative
+            drive and I should come back to creating something more playful.
           </p>
           <p>
-            Nullam nec nunc mi. Fusce tempor leo ut tempus tristique. Nunc
-            blandit, augue ut tincidunt vulputate, lacus nisi bibendum leo, quis
-            egestas dui nunc ut leo. Maecenas hendrerit sem nec ex convallis
-            vehicula. Morbi sed nulla quam. Pellentesque molestie vehicula nisi
-            a vulputate. Praesent mollis massa eu nisl sollicitudin maximus.
-            Phasellus eu ipsum arcu. Suspendisse malesuada consequat nunc, non
-            pulvinar ante.
-          </p>{" "}
+            Now, I am studying game design at Breda University of Applied
+            Sciences in the Netherlands, where I have learned how to leave my
+            amateurish habits behind and start creating games as a professional
+            game designer. I learned to thrive in a team environment, rapidly
+            create prototypes, and iterate on my designs based on player
+            feedback. All of these skills I have acquired helped in
+            understanding an industry-grade game development cycle.
+          </p>
           <p>
-            Curabitur egestas id orci non sollicitudin. Etiam odio dui,
-            efficitur vitae tincidunt quis, porttitor eget leo. Pellentesque
-            habitant morbi tristique senectus et netus et malesuada fames ac
-            turpis egestas. Quisque tempor consectetur sem sit amet pulvinar.
-            Nam quis lectus rhoncus, posuere ante sed, pulvinar diam. Quisque eu
-            quam eget lectus rutrum porttitor in ut erat.
-          </p>{" "}
-          <p>Nunc hendrerit gravida lacus, et bibendum urna suscipit eget.</p>
+            I treat myself as a game designer, but along the way I have
+            experiened all kinds of bits and pieces of game design. From level
+            design, through narrative design, audio design, quest design,
+            technical design, to systems design, I have been able to try it all
+            in one way or another. It created a perspective of how a game comes
+            to become as a cohesive experience, which I believe helps me to
+            design full game experiences.
+          </p>
+          <p>
+            "A jack of all trades is a master of none, but often times better
+            than a master of one." - William Shakespeare
+          </p>
         </div>
-        <div className="AboutMeImage"></div>
+        <img
+          className="AboutMeImage"
+          src={process.env.PUBLIC_URL + "/profile.jpeg"}
+        ></img>
       </div>
       {/* What others said about me */}
       <div className="ResumeContent">
         <div className="ResumeTitle">Resume Preview</div>
         <div className="ResumeSubtitle">Click the image for a PDF</div>
-        <div className="ResumeIMGs">
-          <div className="ResumeIMG"></div>
-          <div className="ResumeIMG"></div>
-        </div>
+        <a href={process.env.PUBLIC_URL + "/CV.pdf"}>
+          <div className="ResumeIMGs">
+            <img
+              className="ResumeIMG"
+              src={process.env.PUBLIC_URL + "/CV.png"}
+              alt="Resume Preview"
+            ></img>
+          </div>
+        </a>
       </div>
       <Footer />
     </div>

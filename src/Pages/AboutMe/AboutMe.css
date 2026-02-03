@@ -22,6 +22,7 @@
   border-radius: 150px;
   margin-right: 50px;
   border: white 2px solid;
+  margin-top: 50px;
 }
 .AboutMeText {
   max-width: 600px;
@@ -56,7 +57,7 @@
 
 .ResumeIMG {
   width: 600px;
-  height: 800px;
+  height: 880px;
   margin-top: 20px;
   border: white 2px solid;
 }

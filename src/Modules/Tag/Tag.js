@@ -12,7 +12,12 @@ function Tag({ name }) {
         <div>
           <img
             className="TagIcon"
-            src={process.env.PUBLIC_URL + "/icons/" + link + ".png"}
+            src={
+              process.env.PUBLIC_URL +
+              "/icons/" +
+              (link == "c#" ? "c" : link) +
+              ".png"
+            }
             alt={`${name} icon`}
           />
         </div>

@@ -30,13 +30,13 @@
     "oneliner": "An online multiplayer game. The game combines elements of the social deduction game “Mafia” (also known as “Werewolf”) extended by our team with cards and special actions.",
     "role": "Technical Designer",
     "responsibilities": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+      "Designed backend architecture with multiple game states, player actions and multiplayer communication.",
+      "Created a state machine responsible for handling numerous game states.",
+      "Interpreted tabletop game rules into video game format."
     ],
     "tags": [
       "React Js",
-      "Tech Design",
+      "Technical Design",
       "Game Design",
       "Git",
       "Multiplayer",
@@ -55,9 +55,9 @@
     "oneliner": "A 2D simulator game about running a potion shop set in a medieval fantasy setting. The game combines logical puzzles and mini-games in a design that focuses on creating a casual and relaxing gameplay.",
     "role": "System Designer",
     "responsibilities": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+      "Designed and created gardening system, a variety of minigames, dialogue system and quest system.",
+      "Integrated the systems of the game to create a cohesive gameplay experience.",
+      "Collaborated with other developers on creating the key system of the game."
     ],
     "tags": [
       "Unity",

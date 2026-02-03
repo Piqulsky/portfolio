@@ -77,22 +77,22 @@ function Moonsoup() {
             <ul>
               <li>
                 Designed and created gardening system, a variety of minigames,
-                dialogue system and quest system
+                dialogue system and quest system.
               </li>
               <li>
                 Integrated the systems of the game to create a cohesive gameplay
-                experience
+                experience.
               </li>
               <li>
                 Collaborated with other developers on creating the key system of
-                the game - potionmaking
+                the game - potionmaking.
               </li>
               <li>
                 Brainstormed, graphed out and implemented new potions to
-                integrate into gameplay
+                integrate into gameplay.
               </li>
               <li>
-                Playtested and iterated on feedback systems to player actions
+                Playtested and iterated on feedback systems to player actions.
               </li>
             </ul>
           </div>

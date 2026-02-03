@@ -26,7 +26,10 @@ function Resonance() {
     >
       <Navbar />
       <div className="ProjectPageBanner">BANNER</div>
-      <div className="ResonanceDGA">DUTCH GAME AWARDS</div>
+      <img
+        className="ResonanceDGA"
+        src={process.env.PUBLIC_URL + "/Resonance/DGA.png"}
+      />
       <div className="ProjectPageTitle">{resonanceProject?.title}</div>
       <div className="ProjectPageCenter">
         <div className="ProjectPageSubtitle">
@@ -549,9 +552,14 @@ function Resonance() {
         <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Recognition</div>
           <div className="ProjectPageSectionMultiContent">
-            <div className="ProjectPageSectionMultiContentImage">
-              DUTCH GAME AWARDS
-            </div>
+            <img
+              className="ProjectPageSectionMultiContentImage"
+              src={process.env.PUBLIC_URL + "/Resonance/DGA-badge.png"}
+            />
+            <img
+              className="ProjectPageSectionMultiContentImage"
+              src={process.env.PUBLIC_URL + "/Resonance/BUas.png"}
+            />
           </div>
         </div>
       </div>
