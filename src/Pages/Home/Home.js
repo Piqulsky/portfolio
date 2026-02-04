@@ -44,7 +44,7 @@ function Home() {
                 <Project key={index} {...project} />
               ))}
             <div className="FeaturedProjectMore">
-              <NavLink to="/">See more projects...</NavLink>
+              <NavLink to="/projects">See more projects...</NavLink>
             </div>
           </div>
         </div>
@@ -63,6 +63,9 @@ function Home() {
               "System Design",
               "Technical Design",
               "Combat Design",
+              "Puzzle Design",
+              "Tabletop Design",
+              "Multiplayer",
               "Visual Scripting",
               "C#",
               "ReactJs",
@@ -70,6 +73,8 @@ function Home() {
               "Perforce",
               "Miro",
               "Scrum",
+              "Taiga",
+              "Trello",
             ].map((tag, index) => (
               <Tag name={tag} />
             ))}

@@ -51,27 +51,45 @@ function ProhibitionTime() {
         </div>
         <div className="ProjectPageDetails">
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/developers.png"}
+            />
             <div className="ProjectPageDetailContent">4 developers</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/time.png"}
+            />
             <div className="ProjectPageDetailContent">2 years</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/nodejs.png"}
+            />
             <div className="ProjectPageDetailContent">NodeJS</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/action.png"}
+            />
             <div className="ProjectPageDetailContent">Social</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/singleplayer.png"}
+            />
             <div className="ProjectPageDetailContent">5-10 players</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/web.png"}
+            />
             <div className="ProjectPageDetailContent">Web</div>
           </div>
         </div>

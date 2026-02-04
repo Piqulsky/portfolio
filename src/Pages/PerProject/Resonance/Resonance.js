@@ -52,27 +52,45 @@ function Resonance() {
         </div>
         <div className="ProjectPageDetails">
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/developers.png"}
+            />
             <div className="ProjectPageDetailContent">11 developers</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/time.png"}
+            />
             <div className="ProjectPageDetailContent">8 weeks</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Icons/unrealEngine5.png"}
+            />
             <div className="ProjectPageDetailContent">Unreal Engine 5</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/action.png"}
+            />
             <div className="ProjectPageDetailContent">Action</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/singleplayer.png"}
+            />
             <div className="ProjectPageDetailContent">Singleplayer</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/windows.png"}
+            />
             <div className="ProjectPageDetailContent">Windows</div>
           </div>
         </div>

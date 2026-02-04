@@ -1,7 +1,7 @@
 [
   {
     "title": "Resonance",
-    "thumbnail": "/",
+    "thumbnail": "/Shorts/ResonanceShort.mp4",
     "oneliner": "A fast twin-stick action game. Use your telekinetic voice to lift and control objects and enemies, allowing you to shield yourself and fight! Escape the facility trying to keep you under its control.",
     "role": "Level Designer",
     "responsibilities": [
@@ -16,7 +16,8 @@
       "Visual Scripting",
       "Perforce",
       "Game Design",
-      "Miro"
+      "Miro",
+      "Taiga"
     ],
     "steamLink": "/",
     "itchLink": "",
@@ -26,7 +27,7 @@
   },
   {
     "title": "Prohibition Time",
-    "thumbnail": "/",
+    "thumbnail": "/Shorts/ProhibitionTimeShort.mp4",
     "oneliner": "An online multiplayer game. The game combines elements of the social deduction game “Mafia” (also known as “Werewolf”) extended by our team with cards and special actions.",
     "role": "Technical Designer",
     "responsibilities": [
@@ -51,7 +52,7 @@
   },
   {
     "title": "Moonsoup",
-    "thumbnail": "/",
+    "thumbnail": "/Shorts/MoonsoupShort.mp4",
     "oneliner": "A 2D simulator game about running a potion shop set in a medieval fantasy setting. The game combines logical puzzles and mini-games in a design that focuses on creating a casual and relaxing gameplay.",
     "role": "System Designer",
     "responsibilities": [

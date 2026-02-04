@@ -4,7 +4,7 @@ import "./Project.css";
 
 function Project({
   title,
-  thumbnailLink,
+  thumbnail,
   oneliner,
   role,
   responsibilities,
@@ -20,7 +20,11 @@ function Project({
         <div className="ProjectTitle" style={{ backgroundColor: bgColor }}>
           "{title}"
         </div>
-        <div className="ProjectThumbnail">IMG</div>
+        <div className="ProjectThumbnail">
+          <video autoPlay loop muted>
+            <source src={process.env.PUBLIC_URL + thumbnail} type="video/mp4" />
+          </video>
+        </div>
         <div className="ProjectOneliner" style={{ backgroundColor: bgColor }}>
           {oneliner}
         </div>

@@ -1,6 +1,6 @@
 .ProjectPageBanner {
   margin-top: 60px;
-  height: 820px;
+  height: 60vh;
 }
 
 .ProjectPageBanner video {
@@ -48,7 +48,6 @@
 .ProjectPageDetailImage {
   height: 128px;
   width: 128px;
-  border: white solid 2px;
   margin-bottom: 10px;
 }
 
@@ -162,4 +161,26 @@
   width: 256px;
   height: 256px;
   margin: 32px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .ProjectPageCenter {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .ProjectPageTitle {
+    font-size: 50px;
+  }
+  .ProjectPageSubtitle {
+    font-size: 14px;
+  }
+  .ProjectPageTags {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ProjectPageDetailImage {
+    height: 64px;
+    width: 64px;
+  }
 }

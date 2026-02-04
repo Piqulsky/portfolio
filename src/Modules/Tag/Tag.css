@@ -14,3 +14,15 @@
   height: 32px;
   margin-left: 10px;
 }
+
+@media only screen and (min-width: 800px) {
+  .Tag {
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  .TagIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+  }
+}

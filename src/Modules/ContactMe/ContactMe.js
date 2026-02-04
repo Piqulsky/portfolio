@@ -11,7 +11,9 @@ function ContactMe() {
       <div className="ContactMeLinks">
         <div className="ContactMeResume">
           Resume
-          <div className="ContactMeDowloadResume">Dowload Resume</div>
+          <div className="ContactMeDowloadResume">
+            <a href={process.env.PUBLIC_URL + "/CV.pdf"}>Download Resume</a>
+          </div>
         </div>
         <div className="ContactMeContact">
           Contact

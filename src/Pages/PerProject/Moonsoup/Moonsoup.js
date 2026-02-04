@@ -48,27 +48,45 @@ function Moonsoup() {
         </div>
         <div className="ProjectPageDetails">
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/developers.png"}
+            />
             <div className="ProjectPageDetailContent">4 developers</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/time.png"}
+            />
             <div className="ProjectPageDetailContent">5 months</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Icons/unity.png"}
+            />
             <div className="ProjectPageDetailContent">Unity</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/puzzle.png"}
+            />
             <div className="ProjectPageDetailContent">Puzzle</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/singleplayer.png"}
+            />
             <div className="ProjectPageDetailContent">Single player</div>
           </div>
           <div className="ProjectPageDetail">
-            <div className="ProjectPageDetailImage"></div>
+            <img
+              className="ProjectPageDetailImage"
+              src={process.env.PUBLIC_URL + "/Details/windows.png"}
+            />
             <div className="ProjectPageDetailContent">Windows</div>
           </div>
         </div>
