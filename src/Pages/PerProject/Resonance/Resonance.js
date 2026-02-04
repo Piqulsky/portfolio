@@ -25,7 +25,14 @@ function Resonance() {
       style={{ backgroundColor: resonanceProject?.bgColor }}
     >
       <Navbar />
-      <div className="ProjectPageBanner">BANNER</div>
+      <div className="ProjectPageBanner">
+        <video autoPlay loop muted>
+          <source
+            src={process.env.PUBLIC_URL + "/Resonance/ResonanceShowreel.mp4"}
+            type="video/mp4"
+          />
+        </video>
+      </div>
       <img
         className="ResonanceDGA"
         src={process.env.PUBLIC_URL + "/Resonance/DGA.png"}

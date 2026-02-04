@@ -25,7 +25,17 @@ function ProhibitionTime() {
       style={{ backgroundColor: prohibitionTimeProject?.bgColor }}
     >
       <Navbar />
-      <div className="ProjectPageBanner">BANNER</div>
+      <div className="ProjectPageBanner">
+        <video autoPlay loop muted>
+          <source
+            src={
+              process.env.PUBLIC_URL +
+              "/ProhibitionTime/ProhibitionTimeShowreel.mp4"
+            }
+            type="video/mp4"
+          />
+        </video>
+      </div>
       <div className="ProjectPageTitle">{prohibitionTimeProject?.title}</div>
       <div className="ProjectPageCenter">
         <div className="ProjectPageSubtitle">

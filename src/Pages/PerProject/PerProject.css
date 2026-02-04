@@ -1,7 +1,13 @@
 .ProjectPageBanner {
   margin-top: 60px;
-  height: 600px;
-  border: white solid 2px;
+  height: 820px;
+}
+
+.ProjectPageBanner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
 }
 
 .ProjectPageTitle {

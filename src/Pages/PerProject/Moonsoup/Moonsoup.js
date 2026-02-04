@@ -25,7 +25,14 @@ function Moonsoup() {
       style={{ backgroundColor: moonsoupProject?.bgColor }}
     >
       <Navbar />
-      <div className="ProjectPageBanner">BANNER</div>
+      <div className="ProjectPageBanner">
+        <video autoPlay loop muted>
+          <source
+            src={process.env.PUBLIC_URL + "/Moonsoup/MoonsoupShowreel.mp4"}
+            type="video/mp4"
+          />
+        </video>
+      </div>
       <div className="ProjectPageTitle">{moonsoupProject?.title}</div>
       <div className="ProjectPageCenter">
         <div className="ProjectPageSubtitle">
