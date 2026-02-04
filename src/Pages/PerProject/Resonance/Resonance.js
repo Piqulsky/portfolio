@@ -440,7 +440,8 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <img src={process.env.PUBLIC_URL + "/Resonance/enemies1.png"} />
+                <img src={process.env.PUBLIC_URL + "/Resonance/enemies2.png"} />
               </div>
               <div className="ProjectPageSectionContentPieceContent">
                 The main distinction about enemy placement between the
@@ -473,7 +474,12 @@ function Resonance() {
                 telekinetic shockwave.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/combat1.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
@@ -483,7 +489,12 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/combat2.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
               <div className="ProjectPageSectionContentPieceContent">
                 Almost all objects in the level can be pulled and controlled by
@@ -511,7 +522,12 @@ function Resonance() {
                 the direction of the enemies.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/combat3.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
