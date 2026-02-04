@@ -220,16 +220,16 @@ function Resonance() {
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ResonanceFourByFour">
                   <img
-                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive1.jpg"}
+                    src={process.env.PUBLIC_URL + "/Resonance/oppressive1.jpg"}
                   />
                   <img
-                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive2.jpg"}
+                    src={process.env.PUBLIC_URL + "/Resonance/oppressive2.jpg"}
                   />
                   <img
-                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive3.jpg"}
+                    src={process.env.PUBLIC_URL + "/Resonance/oppressive3.jpg"}
                   />
                   <img
-                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive4.jpg"}
+                    src={process.env.PUBLIC_URL + "/Resonance/oppressive4.jpg"}
                   />
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">

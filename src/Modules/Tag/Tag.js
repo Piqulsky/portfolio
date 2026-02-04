@@ -14,7 +14,7 @@ function Tag({ name }) {
             className="TagIcon"
             src={
               process.env.PUBLIC_URL +
-              "/icons/" +
+              "/Icons/" +
               (link == "c#" ? "c" : link) +
               ".png"
             }
