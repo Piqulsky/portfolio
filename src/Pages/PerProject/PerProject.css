@@ -152,9 +152,16 @@
 
 .ProjectPageSectionContentPieceContentImage {
   max-width: 60%;
-  min-width: 30%;
-  border: white solid 2px;
+  min-width: 40%;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.ProjectPageSectionContentPieceContentImage img {
+  width: 100%;
+}
+.ProjectPageSectionContentPieceContentImage video {
+  width: 100%;
 }
 
 .ProjectPageSectionMultiContentImage {
@@ -182,5 +189,21 @@
   .ProjectPageDetailImage {
     height: 64px;
     width: 64px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .ProjectPageTimelinePieceHeader {
+    font-size: 18px;
+  }
+
+  .ProjectPageTimelinePieceContent {
+    font-size: 14px;
+  }
+  .ProjectPageSectionMultiContentPieceHeader {
+    font-size: 20px;
+  }
+  .ProjectPageSectionContentPieceHeader {
+    font-size: 20px;
   }
 }

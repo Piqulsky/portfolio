@@ -26,7 +26,7 @@
     1px 1px 0 #000;
 }
 
-video {
+.IntroVideo video {
   width: 100vw;
   z-index: -1;
   opacity: 0.3;

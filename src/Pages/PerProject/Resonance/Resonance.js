@@ -218,8 +218,19 @@ function Resonance() {
                 Real-life references for Oppressive architecture
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
-                <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                <div className="ResonanceFourByFour">
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive1.jpg"}
+                  />
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive2.jpg"}
+                  />
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive3.jpg"}
+                  />
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/Oppressive4.jpg"}
+                  />
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   Oppressive architecture in the past has been used by
@@ -236,7 +247,7 @@ function Resonance() {
                   Increased use of fences and gates in spaces that are designed
                   to restrict player's freedom, while providing advantage to the
                   enemies helped to provide an experience of a oppressive
-                  prison. (two picture examples)
+                  prison.
                 </div>
               </div>
             </div>
@@ -260,7 +271,10 @@ function Resonance() {
                   containment facility.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/NovaProspekt.png"}
+                  />
+                  <img src={process.env.PUBLIC_URL + "/Resonance/Inside.jpg"} />
                 </div>
               </div>
             </div>
@@ -285,9 +299,18 @@ function Resonance() {
               making adjustments based on that.
             </div>
             <div className="ResonanceSketchesImages">
-              <div className="ResonanceSketchesImage">IMAGE</div>
-              <div className="ResonanceSketchesImage">IMAGE</div>
-              <div className="ResonanceSketchesImage">IMAGE</div>
+              <img
+                className="ResonanceSketchesImage"
+                src={process.env.PUBLIC_URL + "/Resonance/parti1.jpg"}
+              />
+              <img
+                className="ResonanceSketchesImage"
+                src={process.env.PUBLIC_URL + "/Resonance/bubble1.jpg"}
+              />
+              <img
+                className="ResonanceSketchesImageLong"
+                src={process.env.PUBLIC_URL + "/Resonance/layout1.jpg"}
+              />
             </div>
             <div className="ProjectPageSectionContentPieceContent">
               The first layout was based on two buildings connected together by
@@ -301,9 +324,18 @@ function Resonance() {
               over the oppressors.
             </div>
             <div className="ResonanceSketchesImages">
-              <div className="ResonanceSketchesImage">IMAGE</div>
-              <div className="ResonanceSketchesImage">IMAGE</div>
-              <div className="ResonanceSketchesImage">IMAGE</div>
+              <img
+                className="ResonanceSketchesImageLong"
+                src={process.env.PUBLIC_URL + "/Resonance/parti3.jpg"}
+              />
+              <img
+                className="ResonanceSketchesImageLong"
+                src={process.env.PUBLIC_URL + "/Resonance/bubble3.jpg"}
+              />
+              <img
+                className="ResonanceSketchesImageLong"
+                src={process.env.PUBLIC_URL + "/Resonance/layout3.jpg"}
+              />
             </div>
             <div className="ProjectPageSectionContentPieceContent">
               The first iteration (as it is usually expected) reached beyond the
@@ -330,7 +362,12 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/onboarding1.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
               <div className="ProjectPageSectionContentPieceContent">
                 One of the key ideas about the level design was to start as
@@ -340,14 +377,7 @@ function Resonance() {
                 very beginning. To avoid unintended behaviors, the cell doors
                 have been restricted to be influenced only by push, ensuring
                 that the player will always make their first kill when they
-                start the prison break.One of the key ideas about the level
-                design was to start as strong as possible: to hook the player
-                and establish the premise of the gameplay. In order to do that
-                it was important to introduce the most impactful mechanic,
-                telekinetic push, at the very beginning. To avoid unintended
-                behaviors, the cell doors have been restricted to be influenced
-                only by push, ensuring that the player will always make their
-                first kill when they start the prison break.
+                start the prison break.
               </div>
             </div>
           </div>
@@ -365,7 +395,12 @@ function Resonance() {
                 works.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/onboarding2.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
             </div>
           </div>
@@ -375,7 +410,12 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                IMAGE
+                <video autoPlay loop muted>
+                  <source
+                    src={process.env.PUBLIC_URL + "/Resonance/onboarding3.mp4"}
+                    type="video/mp4"
+                  />
+                </video>
               </div>
               <div className="ProjectPageSectionContentPieceContent">
                 A last-minute feature introduced a new enemy variant that is
