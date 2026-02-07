@@ -213,7 +213,15 @@ function ProhibitionTime() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-1.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   The game started out as a card game that was often played in
@@ -238,7 +246,15 @@ function ProhibitionTime() {
                   emotions they did at a regular table.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-2.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>
@@ -265,7 +281,15 @@ function ProhibitionTime() {
                   laying behind them.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-3.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>
@@ -275,7 +299,15 @@ function ProhibitionTime() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-4.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   To properly enter digital environment it was necessary to
@@ -301,7 +333,15 @@ function ProhibitionTime() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-5.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   The game, just like any other classic social deduction game,
@@ -336,7 +376,15 @@ function ProhibitionTime() {
                   game table.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/ProhibitionTime/prohibition-6.mp4"
+                      }
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>

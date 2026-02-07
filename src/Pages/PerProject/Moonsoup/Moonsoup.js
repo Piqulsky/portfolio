@@ -194,7 +194,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-1.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   One of the key decisions in designing the potionmaking system
@@ -223,7 +228,12 @@ function Moonsoup() {
                   can replenish ingredients and plant new ones.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-2.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>
@@ -233,7 +243,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-3.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   Brewing potions requires concentration from the player, but
@@ -257,7 +272,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-2.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   The first layer of potionmaking is gardening and it is the
@@ -283,7 +303,12 @@ function Moonsoup() {
                   to use a single input in specific patterns to succeed.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-5.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>
@@ -293,7 +318,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-1.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   The main and final part of potionmaking relies heavily on
@@ -318,7 +348,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-7.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   To introduce a certain goal to the player it was necessary to
@@ -345,7 +380,12 @@ function Moonsoup() {
                   system.
                 </div>
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-8.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
               </div>
             </div>
@@ -355,7 +395,12 @@ function Moonsoup() {
               </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ProjectPageSectionContentPieceContentImage">
-                  IMAGE
+                  <video autoPlay loop muted>
+                    <source
+                      src={process.env.PUBLIC_URL + "/Moonsoup/moonsoup-9.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
                   Creating quests and rewards helped to give purpose to making

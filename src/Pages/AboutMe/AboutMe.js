@@ -13,7 +13,7 @@ function AboutMe() {
             Hello there! I'm Michał and I'm a game designer. I have been
             creating games for more than 5 years now and what started as a hobby
             has now become my professional passion. I started out learning
-            software and web development, but quickly after finishing the
+            software and web engineering, but quickly after finishing the
             school, I realized that these fields are not fit for my creative
             drive and I should come back to creating something more playful.
           </p>
