@@ -19,8 +19,8 @@
       "Miro",
       "Taiga"
     ],
-    "steamLink": "/",
-    "itchLink": "",
+    "steamLink": "",
+    "itchLink": "https://buas.itch.io/resonance",
     "pageLink": "/project/resonance",
     "bgColor": "#220000",
     "featured": true
@@ -76,34 +76,58 @@
     "featured": true
   },
   {
-    "title": "When the Dusk Comes",
-    "thumbnail": "/",
-    "oneliner": "A 2D advanced clicker game where the player tries to save as many people as possible before the apocalypse. The game combines a simple mechanic of button clicking with a broad system of saving humanity, heritage, and technology trees.",
+    "title": "Keep Talking and Nobody Gets Murdered",
+    "thumbnail": "/GameJams/keepdancing.mp4",
+    "oneliner": "A 2-player asymetrical coop game where one players is banquet infiltrator in VR, while the other looks from above and provides information and clues.",
     "role": "Game Designer",
     "responsibilities": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+      "Designed two players' gameplays sharing identical goals, but have limited sets information each.",
+      "Designed for a VR experience, creating gameplay elements that leadn into tactility, exploration and communication between the players.",
+      "Developed a full experience under 48 hour limit."
+    ],
+    "tags": [
+      "Unreal Engine 5",
+      "Game Design",
+      "Virtual Reality",
+      "Visual Scripting",
+      "Miro",
+      "Perforce"
+    ],
+    "steamLink": "",
+    "itchLink": "https://piqulsky.itch.io/keep-dancing",
+    "pageLink": "/other/gamejams",
+    "bgColor": "#221100",
+    "featured": false
+  },
+  {
+    "title": "When the Dusk Comes",
+    "thumbnail": "/GameJams/dusk.mp4",
+    "oneliner": "A 2D clicker game where the player tries to shelter people before the apocalypse. The game combines button clicking with systems for saving humanity, heritage, and technology trees.",
+    "role": "Game Designer",
+    "responsibilities": [
+      "Designed systems and gameplay elements around a singular core mechanic of button clicking.",
+      "Concepted a coherent vision with a team in 2 hours.",
+      "Developed a full experience under 24 hour limit."
     ],
     "tags": ["Godot Engine", "System Design", "Game Design"],
-    "steamLink": "/",
-    "itchLink": "",
-    "pageLink": "/project/whentheduskcomes",
+    "steamLink": "",
+    "itchLink": "https://piqulsky.itch.io/whentheduskcomes",
+    "pageLink": "/other/gamejams",
     "bgColor": "#222200",
     "featured": false
   },
   {
     "title": "Coal in my Heart",
-    "thumbnail": "/",
+    "thumbnail": "/GameJams/coal.mp4",
     "oneliner": "A 2D side-scrolling platformer game that mixes a fighting system with survival mechanics. The player has to fight swarms of living icicles and snowflakes to reach the heating system, guarded by a boss who must be defeated to fix it.",
     "role": "Game Designer",
     "responsibilities": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus. Cras pulvinar sem metus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in mauris purus."
+      "Designed two types of enemies, each with a unique behavior, and a boss fight consisting of three phases.",
+      "Created a platforming traversal system with multiple abilities and simple combat.",
+      "Developed the full experience as a solo developer."
     ],
     "tags": ["Godot Engine", "Game Design", "Combat Design"],
-    "steamLink": "/",
+    "steamLink": "",
     "itchLink": "",
     "pageLink": "/project/coalinmyheart",
     "bgColor": "#000022",
