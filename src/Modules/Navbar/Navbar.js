@@ -9,7 +9,11 @@ function Navbar() {
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/projects.json`)
       .then((response) => response.json())
-      .then((data) => setProjects(data))
+      .then((data) =>
+        setProjects(
+          data.filter((project) => project.pageLink !== "/other/gamejams"),
+        ),
+      )
       .catch((error) => console.error("Error loading projects:", error));
   }, []);
 

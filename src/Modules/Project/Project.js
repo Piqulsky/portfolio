@@ -55,16 +55,12 @@ function Project({
         <div className="ProjectButtons">
           {steamLink && (
             <div className="ProjectButtonSteam">
-              <NavLink to={steamLink}>
-                <NavLink to="/">Steam</NavLink>
-              </NavLink>
+              <NavLink to={steamLink}>Steam</NavLink>
             </div>
           )}
           {itchLink && (
             <div className="ProjectButtonItch">
-              <NavLink to={itchLink}>
-                <NavLink to="/">Itch</NavLink>
-              </NavLink>
+              <NavLink to={itchLink}>Itch</NavLink>
             </div>
           )}
           <div

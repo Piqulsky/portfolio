@@ -66,6 +66,7 @@ function Home() {
               "Puzzle Design",
               "Tabletop Design",
               "Multiplayer",
+              "Virtual Reality",
               "Visual Scripting",
               "C#",
               "ReactJs",
@@ -75,6 +76,7 @@ function Home() {
               "Scrum",
               "Taiga",
               "Trello",
+              "Confluence",
             ].map((tag, index) => (
               <Tag name={tag} />
             ))}

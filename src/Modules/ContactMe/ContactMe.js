@@ -19,7 +19,7 @@ function ContactMe() {
           Contact
           <div className="ContactMeMethod">
             <img
-              src={process.env.PUBLIC_URL + "/icons/mail.png"}
+              src={process.env.PUBLIC_URL + "/Icons/mail.png"}
               className="ContactIcon"
               alt="Email icon"
             />
@@ -29,7 +29,7 @@ function ContactMe() {
           </div>
           <div className="ContactMeMethod">
             <img
-              src={process.env.PUBLIC_URL + "/icons/linkedIn.png"}
+              src={process.env.PUBLIC_URL + "/Icons/linkedIn.png"}
               className="ContactIcon"
               alt="LinkedIn icon"
             />

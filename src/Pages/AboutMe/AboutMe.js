@@ -53,7 +53,7 @@ function AboutMe() {
           <div className="ResumeIMGs">
             <img
               className="ResumeIMG"
-              src={process.env.PUBLIC_URL + "/CV.png"}
+              src={process.env.PUBLIC_URL + "/cv.png"}
               alt="Resume Preview"
             ></img>
           </div>
