@@ -16,6 +16,7 @@ import GameMastering from "./Pages/OtherEndeavors/GameMastering/GameMastering";
 import MiroTemplates from "./Pages/OtherEndeavors/MiroTemplates/MiroTemplates";
 import ScrollToTop from "./Modules/FlowControl/ScrollToTop";
 import WIP from "./Pages/WIP/WIP";
+import Elysian from "./Pages/PerProject/Elysian/Elysian";
 
 const root = document.getElementById("root");
 
@@ -32,6 +33,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/project/resonance" element={<Resonance />} />
       <Route path="/project/prohibitiontime" element={<ProhibitionTime />} />
       <Route path="/project/moonsoup" element={<Moonsoup />} />
+      <Route path="/project/elysian" element={<Elysian />} />
       <Route
         path="/project/coalinmyheart"
         element={<WIP /> /*<CoalInMyHeart />*/}

@@ -50,6 +50,11 @@
   margin-top: 100px;
 }
 
+.FeaturedProjectsBox {
+  display: flex;
+  justify-content: center;
+}
+
 .FeaturedProjectsTitle {
   border-bottom: white 2px solid;
   padding-bottom: 10px;
@@ -69,17 +74,14 @@
 
 .Skills {
   margin: auto;
-  width: 100%;
-  margin-top: 50px;
+  width: 50%;
+  margin-top: 20px;
 }
 
 .SkillsTitle {
-  width: 40%;
-  border-bottom: white 2px solid;
-  padding-left: 30%;
-  padding-right: 30%;
-  padding-bottom: 10px;
-  font-size: 50px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
 }
 
 .SkillsMore {
@@ -90,8 +92,8 @@
 }
 
 .SkillsList {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -105,15 +107,13 @@
     font-size: 30px;
   }
   .FeaturedProjectsList {
-    padding-left: 20%;
     padding-right: 20%;
   }
   .SkillsTitle {
-    width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 10px;
-    font-size: 30px;
+    width: 100%;
+    font-size: 22px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .SkillsMore {
     padding-left: 20%;
@@ -121,7 +121,7 @@
     font-size: 20px;
   }
   .SkillsList {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }

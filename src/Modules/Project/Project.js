@@ -11,6 +11,7 @@ function Project({
   tags,
   steamLink,
   itchLink,
+  ytLink,
   pageLink,
   bgColor,
 }) {
@@ -61,6 +62,11 @@ function Project({
           {itchLink && (
             <div className="ProjectButtonItch">
               <NavLink to={itchLink}>Itch</NavLink>
+            </div>
+          )}
+          {ytLink && (
+            <div className="ProjectButtonYt">
+              <NavLink to={ytLink}>YouTube</NavLink>
             </div>
           )}
           <div

@@ -1,0 +1,18 @@
+.Filter {
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  background-color: #dddddd;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  border: black 2px solid;
+  color: black;
+}
+
+@media only screen and (min-width: 800px) {
+  .Filter {
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+}

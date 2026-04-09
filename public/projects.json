@@ -16,13 +16,40 @@
       "Visual Scripting",
       "Perforce",
       "Game Design",
+      "Lighting",
       "Miro",
       "Taiga"
     ],
     "steamLink": "",
     "itchLink": "https://buas.itch.io/resonance",
+    "ytLink": "",
     "pageLink": "/project/resonance",
     "bgColor": "#220000",
+    "featured": true
+  },
+  {
+    "title": "Elysian",
+    "thumbnail": "/Shorts/ElysianShort.mp4",
+    "oneliner": "Short dystopian psychological thriller about addiction and escapism. Two friends clash when their views on the euphoric drug create a rift between themselves.",
+    "role": "Environment Artist",
+    "responsibilities": [
+      "Created a dystopian environment out of modular assets to display at LED Volume and integrate witht the set.",
+      "Lit the environment to realise the intended atmosphere.",
+      "Animated the assets to create scripted transitions between realities."
+    ],
+    "tags": [
+      "Unreal Engine 5",
+      "Environment Art",
+      "Virtual Production",
+      "Filmmaking",
+      "Set Dressing",
+      "Perforce"
+    ],
+    "steamLink": "",
+    "itchLink": "",
+    "ytLink": "https://www.youtube.com/watch?v=X7mu7ezXYtQ",
+    "pageLink": "/project/elysian",
+    "bgColor": "#330022",
     "featured": true
   },
   {
@@ -46,9 +73,10 @@
     ],
     "steamLink": "",
     "itchLink": "",
+    "ytLink": "",
     "pageLink": "/project/prohibitiontime",
     "bgColor": "#002200",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Moonsoup",
@@ -71,9 +99,10 @@
     ],
     "steamLink": "",
     "itchLink": "",
+    "ytLink": "",
     "pageLink": "/project/moonsoup",
     "bgColor": "#220022",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Keep Talking and Nobody Gets Murdered",
@@ -95,6 +124,7 @@
     ],
     "steamLink": "",
     "itchLink": "https://piqulsky.itch.io/keep-dancing",
+    "ytLink": "",
     "pageLink": "/other/gamejams",
     "bgColor": "#221100",
     "featured": false
@@ -112,6 +142,7 @@
     "tags": ["Godot Engine", "System Design", "Game Design"],
     "steamLink": "",
     "itchLink": "https://piqulsky.itch.io/whentheduskcomes",
+    "ytLink": "",
     "pageLink": "/other/gamejams",
     "bgColor": "#222200",
     "featured": false
@@ -129,6 +160,7 @@
     "tags": ["Godot Engine", "Game Design", "Combat Design"],
     "steamLink": "",
     "itchLink": "",
+    "ytLink": "",
     "pageLink": "/project/coalinmyheart",
     "bgColor": "#000022",
     "featured": false
