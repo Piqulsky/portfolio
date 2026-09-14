@@ -8,7 +8,7 @@ function Tag({ name }) {
   return (
     <NavLink to={`/projects/${link}`}>
       <div className="Tag">
-        {name}
+        <div className="TagName"> {name}</div>
         <div>
           <img
             className="TagIcon"

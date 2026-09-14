@@ -7,6 +7,8 @@ function Project({
   thumbnail,
   oneliner,
   role,
+  information,
+  platforms,
   responsibilities,
   tags,
   steamLink,
@@ -22,7 +24,7 @@ function Project({
           "{title}"
         </div>
         <div className="ProjectThumbnail">
-          <video autoPlay loop muted>
+          <video autoPlay loop muted controls>
             <source src={process.env.PUBLIC_URL + thumbnail} type="video/mp4" />
           </video>
         </div>
@@ -35,25 +37,38 @@ function Project({
           <b>Role:</b> <i>{role}</i>
         </div>
         <div
+          className="ProjectInformation"
+          style={{ backgroundColor: bgColor }}
+        >
+          <div className="ProjectInformationTitle">Project Information:</div>
+          {information.map((info, index) => (
+            <p key={index}>
+              {<i>{info.split(":")[0]}:</i>}
+              {info.split(":")[1]}
+            </p>
+          ))}
+          <p>
+            <i>Platforms: </i>
+            {Object.entries(platforms).map(([key, platform]) => (
+              <span>
+                <a href={platform}>{key} </a>&nbsp;
+              </span>
+            ))}
+          </p>
+        </div>
+        <div
           className="ProjectResponsibilities"
           style={{ backgroundColor: bgColor }}
         >
-          <div className="ProjectResponsibilitiesTitle">Responsibilities:</div>
-          <ul>
-            {responsibilities.map((responsibility, index) => (
-              <li key={index}>{responsibility}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
-          <div className="ProjectTagsTitle">Skills:</div>
-          <div className="ProjectTagsList">
-            {tags.slice(0, 3).map((tag, index) => (
-              <Tag name={tag} />
-            ))}
+          <div className="ProjectResponsibilitiesTitle">
+            Responsibilities highlights:
           </div>
+          {responsibilities.map((responsibility, index) => (
+            <p key={index}>{responsibility}</p>
+          ))}
         </div>
-        <div className="ProjectButtons">
+
+        {/* <div className="ProjectButtons">
           {steamLink && (
             <div className="ProjectButtonSteam">
               <NavLink to={steamLink}>Steam</NavLink>
@@ -75,6 +90,14 @@ function Project({
           >
             <NavLink to={pageLink}>Info</NavLink>
           </div>
+        </div> */}
+      </div>
+      <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
+        {/* <div className="ProjectTagsTitle">Skills:</div> */}
+        <div className="ProjectTagsList">
+          {tags.slice(0, 7).map((tag, index) => (
+            <Tag name={tag} />
+          ))}
         </div>
       </div>
     </div>

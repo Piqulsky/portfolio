@@ -4,6 +4,8 @@ import "./Resonance.css";
 import Navbar from "../../../Modules/Navbar/Navbar";
 import Footer from "../../../Modules/Footer/Footer";
 import Tag from "../../../Modules/Tag/Tag";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 function Resonance() {
   const [projects, setProjects] = useState([]);
@@ -104,28 +106,30 @@ function Resonance() {
             </div>
             <ul>
               <li>
-                Developed a complete and polished level design for the final
-                product
+                I developed a complete and polished level design in Unreal
+                Engine 5 for the final product
               </li>
               <li>
-                Brainstormed and concepted multiple possible level designs and
+                I brainstormed and concepted multiple possible level designs and
                 presented to the rest of the team
               </li>
               <li>
-                Developed several paper prototypes and in-engine prototypes to
-                search for gameplay beats fitting the player experience
+                I developed several paper prototypes and in-engine prototypes
+                using CubeGrid tool to search for gameplay beats fitting the
+                player experience
               </li>
               <li>
-                Scripted various level ingredients such as sequenced doors and
-                spawning systems to create intended gameplay situations
+                I scripted various level ingredients using Blueprints such as
+                sequenced doors and spawning systems to create intended gameplay
+                situations
               </li>
               <li>
-                Designed and coded system for managing loading level parts for
-                optimization purposes
+                I designed and coded in Blueprints a system for managing loading
+                level parts for optimization purposes
               </li>
               <li>
-                Collaborated closely with environment artists to ensure cohesive
-                level aesthetics
+                I collaborated closely with environment artists to ensure
+                cohesive level aesthetics
               </li>
             </ul>
           </div>
@@ -214,67 +218,36 @@ function Resonance() {
           <div className="ProjectPageHeader">Research and References</div>
           <div className="ProjectPageSectionContent">
             <div className="ProjectPageSectionContentPiece">
-              <div className="ProjectPageSectionContentPieceHeader">
-                Real-life references for Oppressive architecture
-              </div>
               <div className="ProjectPageSectionContentPieceContentWithImage">
                 <div className="ResonanceFourByFour">
-                  <img
-                    src={process.env.PUBLIC_URL + "/Resonance/oppressive1.jpg"}
-                  />
-                  <img
-                    src={process.env.PUBLIC_URL + "/Resonance/oppressive2.jpg"}
-                  />
-                  <img
-                    src={process.env.PUBLIC_URL + "/Resonance/oppressive3.jpg"}
-                  />
-                  <img
-                    src={process.env.PUBLIC_URL + "/Resonance/oppressive4.jpg"}
-                  />
+                  <Zoom>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/Resonance/oppressive2.jpg"
+                      }
+                    />
+                  </Zoom>
+                  <Zoom>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/Resonance/oppressive3.jpg"
+                      }
+                    />
+                  </Zoom>
                 </div>
                 <div className="ProjectPageSectionContentPieceContent">
-                  Oppressive architecture in the past has been used by
-                  totalitarian states, which used design of the buildings to
-                  establish dominance on the citizens. Using the characteristic
-                  to this architecture movement simple geometrical shapes, tall
-                  walls and symmetry made it possible to evoke feeling of
-                  oppression, sovereignty and fear in the level, especially when
-                  concrete and metal are dominant materials. Modern hostile
-                  architecture is known for putting spikes on benches, but an
-                  intended placement of fences, disabling access from certain
-                  areas and separation of space into narrow segments are other
-                  examples of enforcing specific behavior types on citizens.
-                  Increased use of fences and gates in spaces that are designed
-                  to restrict player's freedom, while providing advantage to the
-                  enemies helped to provide an experience of a oppressive
-                  prison.
-                </div>
-              </div>
-            </div>
-            <div className="ProjectPageSectionContentPiece">
-              <div className="ProjectPageSectionContentPieceHeader">
-                Game references for Containment Facilities
-              </div>
-              <div className="ProjectPageSectionContentPieceContentWithImage">
-                <div className="ProjectPageSectionContentPieceContent">
-                  Exploring the design of Nova Prospekt from Half-Life 2
-                  provided insights into designing a prison facility with
-                  functional gameplay. Grid-based layout, metal fences and
-                  linear progression were key elements that stood out in the
-                  design of that particular level. Using those elements in the
-                  level allowed to make the player feel like they are resisting
-                  a structure that is constantly trying to control them.
-                  Supporting the level design with references of containment
-                  facilities from Inside allowed to explore gameplay
-                  implications of narrow hallways and segregating metal fences.
-                  Using those elements helped to amplify the experience of a
-                  containment facility.
-                </div>
-                <div className="ProjectPageSectionContentPieceContentImage">
-                  <img
-                    src={process.env.PUBLIC_URL + "/Resonance/NovaProspekt.png"}
-                  />
-                  <img src={process.env.PUBLIC_URL + "/Resonance/Inside.jpg"} />
+                  <p>
+                    Oppressive architecture in the past has been used by
+                    totalitarian states, which used design of the buildings to
+                    establish dominance on the citizens.
+                  </p>
+                  <p>
+                    Using the characteristic to this architecture movement
+                    simple geometrical shapes, tall walls and symmetry made it
+                    possible to evoke feeling of oppression, sovereignty and
+                    fear in the level, especially when concrete and metal are
+                    dominant materials.
+                  </p>
                 </div>
               </div>
             </div>
@@ -284,33 +257,47 @@ function Resonance() {
           <div className="ProjectPageHeader">From Sketch to Layout</div>
           <div className="ProjectPageSectionContent">
             <div className="ProjectPageSectionContentPieceContent">
-              Starting out with simple geometrical shapes allows to explore
-              direction of progression of the entire level. Exploration of those
-              simple shapes helped to establish how the overall design of the
-              building would provide the player with an experience of prison
-              break. Figuring out the pacing and comparative size between
-              gameplay beets in a bubble diagram allowed to understand how the
-              experience of the player would change and which of the areas are
-              going to be key moments in gameplay. Final layout before going
-              into blockout helped to communicate the entire idea to the team
-              and explore moment-to-moment combat dynamics that are intended by
-              design. The golden path of the gameplay and expected player
-              actions was essential in evaluating playtesting data later on and
-              making adjustments based on that.
+              <p>
+                Starting out with simple geometrical shapes allowed me to
+                explore direction of progression of the entire level. Setting on
+                a left-to-right direction helped to sell the experience of
+                prison break.
+              </p>
+              <p>
+                Figuring out the pacing and comparative size between gameplay
+                beets in a bubble diagram allowed to understand how the
+                experience of the player would change and which of the areas are
+                going to be key moments in gameplay.
+              </p>
+              <p>
+                Final layout before going into blockout helped to communicate
+                the entire idea to the team and explore moment-to-moment combat
+                dynamics that are intended by design. The golden path of the
+                gameplay and expected player actions was essential in evaluating
+                playtesting data later on and making adjustments based on that.
+              </p>
             </div>
             <div className="ResonanceSketchesImages">
-              <img
-                className="ResonanceSketchesImage"
-                src={process.env.PUBLIC_URL + "/Resonance/parti1.jpg"}
-              />
-              <img
-                className="ResonanceSketchesImage"
-                src={process.env.PUBLIC_URL + "/Resonance/bubble1.jpg"}
-              />
-              <img
-                className="ResonanceSketchesImageLong"
-                src={process.env.PUBLIC_URL + "/Resonance/layout1.jpg"}
-              />
+              <div className="ResonanceSketchesImage">
+                <Zoom>
+                  <img src={process.env.PUBLIC_URL + "/Resonance/parti1.jpg"} />
+                </Zoom>
+              </div>
+              <div className="ResonanceSketchesImage">
+                <Zoom>
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/bubble1.jpg"}
+                  />
+                </Zoom>
+              </div>
+            </div>
+            <div className="ResonanceSketchesImages">
+              <Zoom>
+                <img
+                  className="ResonanceSketchesImageLong"
+                  src={process.env.PUBLIC_URL + "/Resonance/layout1.jpg"}
+                />
+              </Zoom>
             </div>
             <div className="ProjectPageSectionContentPieceContent">
               The first layout was based on two buildings connected together by
@@ -324,18 +311,24 @@ function Resonance() {
               over the oppressors.
             </div>
             <div className="ResonanceSketchesImages">
-              <img
-                className="ResonanceSketchesImageLong"
-                src={process.env.PUBLIC_URL + "/Resonance/parti3.jpg"}
-              />
-              <img
-                className="ResonanceSketchesImageLong"
-                src={process.env.PUBLIC_URL + "/Resonance/bubble3.jpg"}
-              />
-              <img
-                className="ResonanceSketchesImageLong"
-                src={process.env.PUBLIC_URL + "/Resonance/layout3.jpg"}
-              />
+              <Zoom>
+                <img
+                  className="ResonanceSketchesImageLong"
+                  src={process.env.PUBLIC_URL + "/Resonance/parti3.jpg"}
+                />
+              </Zoom>
+              <Zoom>
+                <img
+                  className="ResonanceSketchesImageLong"
+                  src={process.env.PUBLIC_URL + "/Resonance/bubble3.jpg"}
+                />
+              </Zoom>
+              <Zoom>
+                <img
+                  className="ResonanceSketchesImageLong"
+                  src={process.env.PUBLIC_URL + "/Resonance/layout3.jpg"}
+                />
+              </Zoom>
             </div>
             <div className="ProjectPageSectionContentPieceContent">
               The first iteration (as it is usually expected) reached beyond the
@@ -362,7 +355,7 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/onboarding1.mp4"}
                     type="video/mp4"
@@ -395,7 +388,7 @@ function Resonance() {
                 works.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/onboarding2.mp4"}
                     type="video/mp4"
@@ -410,7 +403,7 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/onboarding3.mp4"}
                     type="video/mp4"
@@ -440,8 +433,16 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                <img src={process.env.PUBLIC_URL + "/Resonance/enemies1.png"} />
-                <img src={process.env.PUBLIC_URL + "/Resonance/enemies2.png"} />
+                <Zoom>
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/enemies1.png"}
+                  />
+                </Zoom>
+                <Zoom>
+                  <img
+                    src={process.env.PUBLIC_URL + "/Resonance/enemies2.png"}
+                  />
+                </Zoom>
               </div>
               <div className="ProjectPageSectionContentPieceContent">
                 The main distinction about enemy placement between the
@@ -474,7 +475,7 @@ function Resonance() {
                 telekinetic shockwave.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/combat1.mp4"}
                     type="video/mp4"
@@ -489,7 +490,7 @@ function Resonance() {
             </div>
             <div className="ProjectPageSectionContentPieceContentWithImage">
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/combat2.mp4"}
                     type="video/mp4"
@@ -522,7 +523,7 @@ function Resonance() {
                 the direction of the enemies.
               </div>
               <div className="ProjectPageSectionContentPieceContentImage">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted controls>
                   <source
                     src={process.env.PUBLIC_URL + "/Resonance/combat3.mp4"}
                     type="video/mp4"

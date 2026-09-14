@@ -17,3 +17,20 @@ a {
 ul li {
   margin-top: 20px;
 }
+
+.accent {
+  color: magenta;
+}
+
+.accentBg {
+  background-color: magenta;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  background-color: inherit;
+  border: inherit;
+}

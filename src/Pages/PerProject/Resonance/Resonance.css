@@ -2,14 +2,19 @@
   display: flex;
   margin-top: 20px;
   width: 100%;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
 }
 
 .ResonanceSketchesImage {
   max-width: 45%;
+  object-fit: fill;
   margin-bottom: 5px;
+}
+
+.ResonanceSketchesImage img {
+  width: 100%;
 }
 
 .ResonanceSketchesImageLong {

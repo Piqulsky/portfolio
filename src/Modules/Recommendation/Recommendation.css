@@ -1,0 +1,47 @@
+.RecommendationBox {
+  margin-top: 20px;
+  display: flex;
+}
+
+.Recommendation {
+  background-color: #220022;
+  padding: 40px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.RecommendationArrowLeft {
+  margin-top: 15%;
+  width: 50px;
+  height: 50px;
+}
+
+.RecommendationArrowRight {
+  margin-top: 15%;
+  width: 50px;
+  height: 50px;
+}
+
+.RecommendationText {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.RecommendationImage {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.RecommendationAuthor {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.RecommendationLink {
+  margin-top: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+}

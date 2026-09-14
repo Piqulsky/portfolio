@@ -1,7 +1,23 @@
 .Footer {
-  width: calc(100% - 80px);
+  width: 100%;
   margin-top: 200px;
-  background-color: #111111;
   text-align: center;
+}
+
+.FooterContent {
   padding: 40px;
+  background-color: #111111;
+}
+
+.BackToTop {
+  margin-bottom: 30px;
+}
+
+.BackToTopText {
+  font-size: 35px;
+}
+
+.BackToTopImage {
+  width: 200px;
+  height: 30px;
 }

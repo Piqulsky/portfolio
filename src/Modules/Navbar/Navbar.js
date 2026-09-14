@@ -19,10 +19,14 @@ function Navbar() {
 
   return (
     <div className="Navbar">
-      <div className="LeftBox">Michał Pikulski</div>
+      <div className="LeftBox">
+        Michał Pikulski | <span>&nbsp;</span>
+        <a className="accent"> Level Designer</a>
+      </div>
       <div className="RightBox">
-        <NavElement name="Home" link="/" />
-        <NavbarElementExpandable
+        <NavElement name="Main Projects" link="/portfolio" />
+        <NavElement name="Project Archive" link="/projects" />
+        {/* <NavbarElementExpandable
           name="My Projects"
           link="/projects"
           subElements={projects.map((project) => ({
@@ -40,9 +44,11 @@ function Navbar() {
             { name: "Miro Templates", link: "/other/mirotemplates" },
             { name: "Design Bible", link: "/other/designbible" },
           ]}
-        />
-        <NavElement name="About & Resume" link="/aboutme" />
-        <NavElement name="Contact Me" link="/contact" />
+        /> */}
+        <NavElement name="About Me" link="/aboutme" />
+        <a href={process.env.PUBLIC_URL + "/CV.pdf"}>
+          <div className="NavElement">{"CV / Resume"}</div>
+        </a>
       </div>
     </div>
   );

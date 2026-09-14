@@ -12,35 +12,6 @@ function Home() {
   const [projects, setProjects] = useState([]);
   const [activeFilter, setActiveFilter] = useState("Featured");
 
-  const filters = [
-    "Unreal Engine 5",
-    "Unity",
-    "Godot Engine",
-    "Game Design",
-    "Level Design",
-    "System Design",
-    "Technical Design",
-    "Combat Design",
-    "Puzzle Design",
-    "Tabletop Design",
-    "Multiplayer",
-    "Virtual Reality",
-    "Visual Scripting",
-    "Lighting",
-    "Environment Art",
-    "Virtual Production",
-    "Filmmaking",
-    "C#",
-    "ReactJs",
-    "Git",
-    "Perforce",
-    "Miro",
-    "Scrum",
-    "Taiga",
-    "Trello",
-    "Confluence",
-  ];
-
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/projects.json`)
       .then((response) => response.json())
@@ -48,21 +19,21 @@ function Home() {
       .catch((error) => console.error("Error loading projects:", error));
   }, []);
 
-  const handleFilterClick = (filterName) => {
-    setActiveFilter(filterName);
-  };
+  // const handleFilterClick = (filterName) => {
+  //   setActiveFilter(filterName);
+  // };
 
-  const clearFilters = () => {
-    setActiveFilter(null);
-  };
+  // const clearFilters = () => {
+  //   setActiveFilter(null);
+  // };
 
-  const setAllFilters = () => {
-    setActiveFilter("All");
-  };
+  // const setAllFilters = () => {
+  //   setActiveFilter("All");
+  // };
 
-  const setFeaturedFilter = () => {
-    setActiveFilter("Featured");
-  };
+  // const setFeaturedFilter = () => {
+  //   setActiveFilter("Featured");
+  // };
 
   const generateProjectList = () => {
     console.log(activeFilter);
@@ -89,7 +60,7 @@ function Home() {
   return (
     <div className="Home">
       <Navbar />
-      <div className="HomeContent">
+      <div className="HomeContent" id="top">
         <div className="Intro">
           <div className="IntroVideo">
             <video autoPlay loop muted>
@@ -100,48 +71,31 @@ function Home() {
             </video>
           </div>
           <div className="IntroName">
-            Michał Pikulski
-            <div className="IntroJobTitle">Level Designer</div>
+            <NavLink to="/aboutme">
+              <img
+                className="IntroImage"
+                src={process.env.PUBLIC_URL + "/profile.jpeg"}
+              ></img>
+              <div className="IntroTitle">About Me</div>
+              <div className="IntroAbout">
+                Level Design Professional with a passion for creating advanced
+                level designs which encourage player creativity and exploration.
+              </div>
+            </NavLink>
+          </div>
+          <div className="ProjectArrow">
+            <div className="ProjectArrowText">
+              <a href="#projects">Projects</a>
+            </div>
+            <img
+              id="projects"
+              className="ProjectArrowImage"
+              src={process.env.PUBLIC_URL + "/arrowdown.png"}
+            ></img>
           </div>
         </div>
         <div className="FeaturedProjects">
-          <div className="FeaturedProjectsTitle">Projects:</div>
           <div className="FeaturedProjectsBox">
-            <div className="Skills">
-              <div className="SkillsTitle">Filters:</div>
-              <div className="SkillsList">
-                <div className="Tag" onClick={clearFilters}>
-                  Clear
-                  <div>
-                    <img
-                      className="TagIcon"
-                      src={process.env.PUBLIC_URL + "/Icons/" + "x.png"}
-                    />
-                  </div>
-                </div>
-                <div className="Tag" onClick={setAllFilters}>
-                  All
-                  <div>
-                    <img
-                      className="TagIcon"
-                      src={process.env.PUBLIC_URL + "/Icons/" + "list.png"}
-                    />
-                  </div>
-                </div>
-                <div className="Tag" onClick={setFeaturedFilter}>
-                  Featured
-                  <div>
-                    <img
-                      className="TagIcon"
-                      src={process.env.PUBLIC_URL + "/Icons/" + "star.png"}
-                    />
-                  </div>
-                </div>
-                {filters.map((tag, index) => (
-                  <Filter name={tag} callback={handleFilterClick} />
-                ))}
-              </div>
-            </div>
             <div className="FeaturedProjectsList">
               {generateProjectList()}
               {/* <div className="FeaturedProjectMore">
