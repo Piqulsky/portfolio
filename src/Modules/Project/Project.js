@@ -21,7 +21,10 @@ function Project({
     <div className="Project">
       <div className="ProjectLeft">
         <div className="ProjectTitle" style={{ backgroundColor: bgColor }}>
-          "{title}"
+          <div className="ProjectTitleText">"{title}"</div>
+          <NavLink to={pageLink} className="ProjectMore">
+            <div>Read More</div>
+          </NavLink>
         </div>
         <div className="ProjectThumbnail">
           <video autoPlay loop muted controls>
@@ -40,7 +43,7 @@ function Project({
           className="ProjectInformation"
           style={{ backgroundColor: bgColor }}
         >
-          <div className="ProjectInformationTitle">Project Information:</div>
+          <span className="ProjectInformationTitle">Project Information:</span>
           {information.map((info, index) => (
             <p key={index}>
               {<i>{info.split(":")[0]}:</i>}

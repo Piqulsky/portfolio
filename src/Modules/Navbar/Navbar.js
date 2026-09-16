@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Navbar.css";
 import NavElement from "./NavElement/NavElement";
 import NavbarElementExpandable from "./NavElementExpandable/NavElementExpandable";
+import { NavLink } from "react-router";
 
 function Navbar() {
   const [projects, setProjects] = useState([]);
@@ -20,8 +21,9 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="LeftBox">
-        Michał Pikulski | <span>&nbsp;</span>
-        <a className="accent"> Level Designer</a>
+        <NavLink to="/portfolio">
+          Michał Pikulski |<a className="accent"> Level Designer</a>
+        </NavLink>
       </div>
       <div className="RightBox">
         <NavElement name="Main Projects" link="/portfolio" />

@@ -20,6 +20,22 @@
   font-weight: bold;
   background-color: #111111;
   padding: 10px;
+  display: flex;
+}
+
+.ProjectTitleText {
+  min-height: 30px;
+  width: 78%;
+}
+.ProjectMore {
+  margin-top: 2px;
+  width: 90px;
+  height: 15px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  text-align: center;
 }
 
 .ProjectThumbnail {
@@ -102,6 +118,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 /* 
 .ProjectButtons {
   margin-top: 10px;
@@ -147,3 +164,63 @@
   flex-grow: 1;
   text-align: center;
 } */
+
+@media (min-width: 1920px) {
+  .ProjectTitle {
+    font-size: 40px;
+  }
+  .ProjectTitleText {
+    min-height: 45px;
+    width: 85%;
+  }
+  .ProjectMore {
+    margin-top: 10px;
+  }
+  .ProjectRole {
+    font-size: 40px;
+  }
+
+  .ProjectInformation {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .ProjectInformation p {
+    line-height: 16px;
+  }
+
+  .ProjectInformationTitle {
+    font-size: 22px;
+  }
+
+  .ProjectResponsibilities {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .ProjectResponsibilitiesTitle {
+    font-size: 22px;
+  }
+  .ProjectResponsibilities p {
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 920px) {
+  .Project {
+    margin-top: 40px;
+    display: block;
+  }
+  .ProjectLeft {
+    width: 100%;
+  }
+
+  .ProjectRight {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .ProjectTitleText {
+    width: 88%;
+  }
+}

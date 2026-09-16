@@ -10,13 +10,13 @@ function ContactMe() {
       </div>
       <div className="ContactMeLinks">
         <div className="ContactMeResume">
-          Resume
+          <div className="ContactName">Resume</div>
           <div className="ContactMeDowloadResume">
             <a href={process.env.PUBLIC_URL + "/CV.pdf"}>Download Resume</a>
           </div>
         </div>
         <div className="ContactMeContact">
-          Contact
+          <div className="ContactName">Contact</div>
           <div className="ContactMeMethod">
             <img
               src={process.env.PUBLIC_URL + "/Icons/mail.png"}
@@ -39,7 +39,7 @@ function ContactMe() {
           </div>
         </div>
         <div className="ContactMeLocation">
-          Location
+          <div className="ContactName">Location</div>
           <div className="ContactMeMethod">
             <div className="ContactText">
               <a href="https://maps.app.goo.gl/d5DTJiMsaYXnpj7g7">

@@ -102,6 +102,11 @@ function Home() {
               <NavLink to="/projects">See more projects...</NavLink>
             </div> */}
             </div>
+            <div className="MoreProjectsButtonBox">
+              <NavLink to="/projects">
+                <div className="MoreProjectsButton">More Projects...</div>
+              </NavLink>
+            </div>
           </div>
         </div>
 

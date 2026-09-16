@@ -81,3 +81,40 @@
     height: 24px;
   }
 }
+
+@media (max-width: 920px) {
+  .ContactMeTitle {
+    width: 100%;
+    border-bottom: white 2px solid;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .ContactMeSubtitle {
+    margin: 20px;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+  }
+  .ContactMeLinks {
+    margin-top: 60px;
+    padding: 0;
+    display: block;
+    justify-content: space-around;
+    font-size: 22px;
+  }
+  .ContactMeDowloadResume {
+    margin-top: 20px;
+    background-color: #111111;
+    padding: 20px 40px 20px 40px;
+    text-decoration: underline;
+  }
+
+  .ContactMeMethod {
+    margin-top: 20px;
+  }
+  .ContactName {
+    margin-top: 20px;
+  }
+}

@@ -28,6 +28,7 @@
 
 .IntroVideo video {
   width: 100vw;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -40,7 +41,7 @@
 
 .IntroName {
   position: absolute;
-  top: 80vh;
+  top: 74vh;
   left: 5vw;
   font-size: 100px;
   background-color: #111111;
@@ -55,6 +56,7 @@
 
 .IntroAbout {
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .ProjectArrow {
@@ -79,10 +81,10 @@
 
 .FeaturedProjectsBox {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 20%;
-  width: 60%;
-  max-width: 1200px;
+  margin-left: calc((100vw - 920px) / 2);
+  width: 920px;
 }
 
 .FeaturedProjectMore {
@@ -91,6 +93,21 @@
   font-style: italic;
   font-size: 25px;
   text-align: right;
+}
+
+.MoreProjectsButtonBox {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MoreProjectsButton {
+  width: 150px;
+  height: 20px;
+  padding: 10px;
+  background-color: magenta;
+  font-weight: bold;
 }
 
 /* .Skills {
@@ -119,3 +136,30 @@
   flex-wrap: wrap;
   margin-top: 20px;
 } */
+
+@media (min-width: 1920px) {
+  .FeaturedProjectsBox {
+    margin-left: calc((100vw - 1440px) / 2);
+    width: 1440px;
+  }
+}
+@media (max-width: 920px) {
+  .FeaturedProjects {
+    margin: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .FeaturedProjectsBox {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .IntroName {
+    width: 100%;
+    position: absolute;
+    top: 74vh;
+    left: 0;
+  }
+}

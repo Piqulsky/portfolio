@@ -29,3 +29,24 @@
   gap: 10px;
   flex: 1;
 }
+
+@media (max-width: 920px) {
+  .Navbar {
+    position: absolute;
+    top: 0;
+    height: 70px;
+  }
+  .LeftBox {
+    width: 100%;
+    font-size: 30px;
+    padding: 0;
+  }
+  .RightBox {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .LeftBox {
+    font-size: 20px;
+  }
+}
