@@ -135,6 +135,541 @@ function Resonance() {
           </div>
         </div>
         <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Overview</div>
+          <div className="ProjectPageFullImage">
+            <Zoom>
+              <img
+                src={process.env.PUBLIC_URL + "/Resonance/ResonanceLayout.png"}
+              />
+            </Zoom>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Design Intent
+            </div>
+            <p>
+              The level was focused on providing two types of experience to the
+              player:
+            </p>
+            <ul>
+              <li>
+                Feeling of containment - the level design conveys an oppressive
+                environment that was meant to imprison the player.
+              </li>
+              <li>
+                Visceral rampage - encounters fuel the player’s rage and first
+                of violence again oppressors, who are unmatched against the
+                supernatural powers of the player character.
+              </li>
+            </ul>
+            <p>
+              I wanted the player to face a variety of self-contained challenges
+              which emerge out of different placements of the enemies within the
+              geometry of the rooms. I relied heavily on placement of cover and
+              the throwable level ingredients to offer the player different
+              gameplay scenarios each time they entered a new room.
+            </p>
+          </div>
+          <div className="ProjectPageBigImage">
+            <div className="">
+              <div className="ProjectPageSectionContentPieceHeader">Flow</div>
+              <p>
+                As this is the only level in the game, all of the onboarding
+                (mechanics, level ingredients, and enemies) had to be developed
+                within the first minutes of the gameplay.
+              </p>
+              <p>
+                The difficulty starts rising only after the player is
+                sufficiently onboarded and uses enemy placement and quantity to
+                increase the challenge.
+              </p>
+            </div>
+            <Zoom>
+              <img
+                src={process.env.PUBLIC_URL + "/Resonance/ResonanceFlow.png"}
+              />
+            </Zoom>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Techniques</div>
+          <div className="ProjectPageSectionContent">
+            <div className="ProjectPageSectionContentVignette">
+              As a level designer, I was responsible for creating game spaces,
+              where player could experience a prison break full of cathartic
+              violence.
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Gates & Valves
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To ensure player stays within the rooms until they complete the
+                encounter, I used scripted doors as Gates, which stopped player
+                progression, and Valves, which stopped player backtracking.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/DoorsValve.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/DoorsGate.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Direction Reinforcement
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To eliminate confusion and pauses resulting from difficult
+                navigation, I streamlined the level layout to always progress
+                from left to right and highlighted the room exits with alarm
+                signals.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/AlarmLights.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/LeftToRight.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Experience First
+            </div>
+            <div className="ProjectPageSingleMedia">
+              <div>
+                <p>
+                  During level design process I have constantly prioritized the
+                  intended player experience, making sure that they player will
+                  get to express their rampage, while the enemies try to contain
+                  them.
+                </p>
+                <p>
+                  To achieve that, I have provided the player with a balanced
+                  amount of enemies, who fall to the player’s abilities like
+                  flies, but placed them far enough that there is always a risk
+                  of getting hit.
+                </p>
+              </div>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/Experience.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Oppressive Architecture</div>
+          <div className="ProjectPageSectionContent">
+            <div className="ProjectPageSectionContentVignette">
+              The level relies on the architecture and spatial design in a big
+              extent. I have intentionally taken a lot of time to refine how the
+              space feels even without the enemies present. By using
+              architectural tricks of prisons, brutalism, hostile architecture
+              practices, and fascist architecture style I have designed spaces
+              that use the size contrast and limitations that reinforce
+              experience of containment in the player.
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">Geometry</div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                Geometry offers very limited action spaces to the player, while
+                keeping them quite open for the enemies. This imbalance helps to
+                create challenging scenarios, where player overcomes the
+                disadvantage.
+              </p>
+              <Zoom>
+                <img
+                  className="ProjectPageDoubleMediaImg"
+                  src={process.env.PUBLIC_URL + "/Resonance/TightSpaces.png"}
+                />
+              </Zoom>
+              <video
+                className="ProjectPageDoubleMediaVideo"
+                autoPlay
+                loop
+                muted
+                controls
+              >
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/Tight.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <div className="ProjectPageSectionContentPieceHeader">Lighting</div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                I wanted to reinforce the feeling of being observed and noticed
+                using visual cues. Lighting not only guides the players, but
+                conveys a lot about how the facility is reacting to the player
+                breaking out.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/CinematicLights.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/AlarmLights.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Twin-stick Action Layout</div>
+          <div className="ProjectPageSectionContent">
+            <div className="ProjectPageSectionContentVignette">
+              The specifics of the twin-stick action genre impose quite a few
+              restrictions. Working with a top-down view simplifies drawing the
+              level layouts, however it requires careful consideration of what
+              is visible on the player’s screen. I have chosen simplicity over
+              complexity to curate the player experience and stay very close to
+              what makes our game exciting.
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Linear Progression
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To keep the player focused on the room they are in, I decided to
+                cut them off from backtracking whenever they enter a new room
+                and aim them towards the exit door at the opposite end.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/LinearProgression.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/Multi-doorClosing.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Lack of Color
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                One of the challenges of the noir art style was the general lack
+                of colour, except for the red. That’s why I decided to have the
+                throwable objects in the room highlight themselves when in
+                range.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/Resonance/HighlightingObjects.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/Resonance/HighlightingEnemies.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Onboarding</div>
+          <div className="ProjectPageSectionContent">
+            <div className="ProjectPageSectionContentVignette">
+              The level relies on the architecture and spatial design in a big
+              extent. I have intentionally taken a lot of time to refine how the
+              space feels even without the enemies present. By using
+              architectural tricks of prisons, brutalism, hostile architecture
+              practices, and fascist architecture style I have designed spaces
+              that use the size contrast and limitations that reinforce
+              experience of containment in the player.
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Mechanic-based Gating
+            </div>
+            <div className="ProjectPageSingleMedia">
+              <div>
+                <p>
+                  To ensure that the player won’t progress forward before
+                  understanding what abilities they have as the player, I have
+                  implemented gates in the level design that force the player to
+                  use the player abilities before they can progress.
+                </p>
+                <p>
+                  In the example on the right, the player is locked away from
+                  the progress until they push and pull the throwable objects in
+                  the environment and unlock the route for themselves.
+                </p>
+              </div>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/SpawnConcrete.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSingleMedia">
+              <div>
+                <p>
+                  I had to follow similar rules when it came to the behaviour of
+                  the two different enemy types. The regular enemy type was
+                  pretty obvious to all the player, as they were easy to kill,
+                  however onboarding the heavy enemy required multiple
+                  iterations.
+                </p>
+                <p>
+                  In the example on the right, I offered the player enough
+                  throwable objects to experiment around and miss their shots.
+                  They cannot progress unless they defeat the conveniently
+                  placed enemies.
+                </p>
+              </div>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/ThrowingHeavy.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">Guidance</div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                Throughout the onboarding section I have placed closing doors
+                and alarm lights to help the player understand the navigation of
+                the rest of the level.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/Resonance/NavigationClosingDoors.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/AlarmLights.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Combat Encounters</div>
+          <div className="ProjectPageSectionContent">
+            <div className="ProjectPageSectionContentVignette">
+              In this twin-stick action game, combat was an essential part of
+              the gameplay. I had to design and prototype a multitude of combat
+              encounters, before being able to decide on gameplay beats that
+              worked well. Through that process I have been able to identify
+              distance metrics, impact of cover, and significance of enemy
+              placement and how those interact with the intended design.
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Enemy placement
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To create another layer of difficulty, while reusing the
+                placement of the enemies, I have used different rotations of the
+                enemies. Those cause the enemies to seem either prepared for
+                combat or surprised.
+              </p>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/UnpreparedEnemies.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+              <video autoPlay loop muted controls>
+                <source
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/PreparedEnemies.mp4"
+                  }
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Cathartic Combat
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To encourage a gameplay style full of rampage and push-forward
+                combat, I kept the spaces small enough to keep the enemies
+                constantly within reach of the player, avoiding snipers lurking
+                in back.
+              </p>
+              <Zoom>
+                <img
+                  className="ProjectPageDoubleMediaImg"
+                  src={process.env.PUBLIC_URL + "/Resonance/Bridge.png"}
+                />
+              </Zoom>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/Bridge.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Resource Balancing
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To achieve a balance between providing the player with
+                ammunition, but not giving them endless power, I have
+                distributed the throwable items in the rooms, giving the player
+                ammo as they progress.
+              </p>
+              <Zoom>
+                <img
+                  className="ProjectPageDoubleMediaImg"
+                  src={process.env.PUBLIC_URL + "/Resonance/X.png"}
+                />
+              </Zoom>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/BridgeObjects.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="ProjectPageSectionContentPieceHeader">
+              Cinematic Climax
+            </div>
+            <div className="ProjectPageDoubleMedia">
+              <p>
+                To finish off the level with an exciting moment that compliments
+                the experience of rampage, I have scripted a combat on a bridge
+                with a cinematic buildup that also disables limits on player’s
+                abilities for a very short time.
+              </p>
+              <Zoom>
+                <img
+                  className="ProjectPageDoubleMediaImg"
+                  src={process.env.PUBLIC_URL + "/Resonance/Cinematic.png"}
+                />
+              </Zoom>
+              <video autoPlay loop muted controls>
+                <source
+                  src={process.env.PUBLIC_URL + "/Resonance/Cinematic.mp4"}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Retrospective</div>
+          <div className="ProjectPageSectionContent">
+            <p>
+              Designing a game with a very strong and specific experience vision
+              was an exceptionally inspiring experience, especially since the
+              entire team was on the same page when it came to we wanted game to
+              become.
+            </p>
+            <p>
+              It was a true test to my level design skills as it required a very
+              focused effort that would compliment and connect all of the
+              features of the game together in a playable space that can provide
+              the strong player experience of breaking out of a fascist
+              facility. Any shortcuts would undermine the goal I had in mind, so
+              going through every step of the workflow with attention to detail
+              and understanding the gameplay dynamics in-depth was crucial.
+              Regular meetings and progress reports with other team members
+              allowed me to get constant feedback on their experience of the
+              level. Every single rooms had to undergo multiple iterations to
+              consistently support the player experience.
+            </p>
+            <p>
+              One of the most important steps of the design of this level was
+              understanding the references and researching various ways to
+              oppress people and instigate fear using architecture, because then
+              the space of the level would serve beyond just providing exciting
+              gameplay scenarios. Instead, it helped to amplify the experience
+              to the extent where player feels it all even in rooms where there
+              is not combat. Tight collaboration with the environment art team
+              helped to create a strong identity of the level that could be
+              associated with different real buildings, yet it would feel
+              distinct and consistent, without feeling like a messy collage of
+              different locations.
+            </p>
+            <p>
+              Designing for a game with a strong moral message was a very
+              rewarding experience, as many players were able to immerse
+              themselves in our action-packed gameplay and then feel great
+              satisfaction out of smashing fascists with concrete and helping a
+              little girl reach freedom.
+            </p>
+          </div>
+        </div>
+        <div className="ProjectPageSection">
+          <div className="ProjectPageHeader">Recognition</div>
+          <div className="ProjectPageSectionMultiContent">
+            <img
+              className="ProjectPageSectionMultiContentImage"
+              src={process.env.PUBLIC_URL + "/Resonance/DGA-badge.png"}
+            />
+            <img
+              className="ProjectPageSectionMultiContentImage"
+              src={process.env.PUBLIC_URL + "/Resonance/BUas.png"}
+            />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default Resonance;
+
+// Saved
+
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Project Timeline</div>
           <div className="ProjectPageSectionContent">
             <div className="ProjectPageTimeline">
@@ -189,8 +724,10 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Pillars</div>
           <div className="ProjectPageSectionMultiContent">
             <div className="ProjectPageSectionMultiContentPiece">
@@ -213,8 +750,10 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Research and References</div>
           <div className="ProjectPageSectionContent">
             <div className="ProjectPageSectionContentPiece">
@@ -252,8 +791,10 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">From Sketch to Layout</div>
           <div className="ProjectPageSectionContent">
             <div className="ProjectPageSectionContentPieceContent">
@@ -346,8 +887,10 @@ function Resonance() {
               optimization which started to become an issue at that stage.
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Onboarding</div>
           <div className="ProjectPageSectionContentPiece">
             <div className="ProjectPageSectionContentPieceHeader">
@@ -424,8 +967,10 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Combat Encounters</div>
           <div className="ProjectPageSectionContentPiece">
             <div className="ProjectPageSectionContentPieceHeader">
@@ -532,8 +1077,10 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
+        </div> */
+}
+{
+  /* <div className="ProjectPageSection">
           <div className="ProjectPageHeader">Collaboration</div>
           <div className="ProjectPageSectionMultiContent">
             <div className="ProjectPageSectionMultiContentPiece">
@@ -586,68 +1133,5 @@ function Resonance() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="ProjectPageSection">
-          <div className="ProjectPageHeader">Closing thoughts</div>
-          <div className="ProjectPageSectionContent">
-            <p>
-              Designing a game with a very strong and specific experience vision
-              was an exceptionally inspiring experience, especially since the
-              entire team was on the same page when it came to we wanted game to
-              become.
-            </p>
-            <p>
-              It was a true test to my level design skills as it required a very
-              focused effort that would compliment and connect all of the
-              features of the game together in a playable space that can provide
-              the strong player experience of breaking out of a fascist
-              facility. Any shortcuts would undermine the goal I had in mind, so
-              going through every step of the workflow with attention to detail
-              and understanding the gameplay dynamics in-depth was crucial.
-              Regular meetings and progress reports with other team members
-              allowed me to get constant feedback on their experience of the
-              level. Every single rooms had to undergo multiple iterations to
-              consistently support the player experience.
-            </p>
-            <p>
-              One of the most important steps of the design of this level was
-              understanding the references and researching various ways to
-              oppress people and instigate fear using architecture, because then
-              the space of the level would serve beyond just providing exciting
-              gameplay scenarios. Instead, it helped to amplify the experience
-              to the extent where player feels it all even in rooms where there
-              is not combat. Tight collaboration with the environment art team
-              helped to create a strong identity of the level that could be
-              associated with different real buildings, yet it would feel
-              distinct and consistent, without feeling like a messy collage of
-              different locations.
-            </p>
-            <p>
-              Designing for a game with a strong moral message was a very
-              rewarding experience, as many players were able to immerse
-              themselves in our action-packed gameplay and then feel great
-              satisfaction out of smashing fascists with concrete and helping a
-              little girl reach freedom.
-            </p>
-          </div>
-        </div>
-        <div className="ProjectPageSection">
-          <div className="ProjectPageHeader">Recognition</div>
-          <div className="ProjectPageSectionMultiContent">
-            <img
-              className="ProjectPageSectionMultiContentImage"
-              src={process.env.PUBLIC_URL + "/Resonance/DGA-badge.png"}
-            />
-            <img
-              className="ProjectPageSectionMultiContentImage"
-              src={process.env.PUBLIC_URL + "/Resonance/BUas.png"}
-            />
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
+        </div> */
 }
-
-export default Resonance;
