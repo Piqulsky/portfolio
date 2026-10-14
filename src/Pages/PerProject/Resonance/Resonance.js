@@ -565,7 +565,9 @@ function Resonance() {
               <Zoom>
                 <img
                   className="ProjectPageDoubleMediaImg"
-                  src={process.env.PUBLIC_URL + "/Resonance/X.png"}
+                  src={
+                    process.env.PUBLIC_URL + "/Resonance/BridgeResources.png"
+                  }
                 />
               </Zoom>
               <video autoPlay loop muted controls>

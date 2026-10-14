@@ -17,6 +17,7 @@ import MiroTemplates from "./Pages/OtherEndeavors/MiroTemplates/MiroTemplates";
 import ScrollToTop from "./Modules/FlowControl/ScrollToTop";
 import WIP from "./Pages/WIP/WIP";
 import Elysian from "./Pages/PerProject/Elysian/Elysian";
+import INYIU from "./Pages/PerProject/INYIU/INYIU";
 
 const root = document.getElementById("root");
 
@@ -31,14 +32,17 @@ ReactDOM.createRoot(root).render(
       <Route path="/projects" element={<ProjectsPage />} />
       <Route path="/projects/:skillFilter" element={<ProjectsPage />} />
       <Route path="/project/resonance" element={<Resonance />} />
-      <Route path="/project/prohibitiontime" element={<ProhibitionTime />} />
-      <Route path="/project/moonsoup" element={<Moonsoup />} />
+      <Route
+        path="/project/prohibitiontime"
+        element={<WIP /> /*<ProhibitionTime />*/}
+      />
+      <Route path="/project/moonsoup" element={<WIP /> /*<Moonsoup />*/} />
       <Route path="/project/elysian" element={<WIP /> /*<Elysian />*/} />
       <Route
         path="/project/coalinmyheart"
         element={<WIP /> /*<CoalInMyHeart />*/}
       />
-      <Route path="/project/inyiu" element={<WIP /> /*<INYIU />*/} />
+      <Route path="/project/inyiu" element={<INYIU />} />
       <Route path="/project/basetohell" element={<WIP /> /*<BaseToHell />*/} />
       <Route
         path="/project/ashtrayhouse"
