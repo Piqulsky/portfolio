@@ -32,7 +32,8 @@
     ],
     "pageLink": "/project/resonance",
     "bgColor": "#220000",
-    "featured": true
+    "featured": true,
+    "badgeSource": "/Resonance/DGA.png"
   },
   {
     "title": "It's Not You It's Us",
@@ -66,11 +67,12 @@
     ],
     "pageLink": "/project/inyiu",
     "bgColor": "#002200",
-    "featured": true
+    "featured": true,
+    "badgeSource": ""
   },
   {
     "title": "Base To Hell",
-    "thumbnail": "/Shorts/ResonanceShort.mp4",
+    "thumbnail": "/Shorts/BaseToHellShort.mp4",
     "oneliner": "Action level for Quake. Infiltrate the military base and defeat the soldiers in your way to discover the secrets hidden away in the basement. Fight through numerous enemies, explore new areas, and unlock a gate to a hellish dimension.",
     "role": "Solo Developer",
     "information": [
@@ -90,7 +92,8 @@
     "tags": ["Trenchbroom", "Level Design", "Encounter Design", "Game Design"],
     "pageLink": "/project/basetohell",
     "bgColor": "#221100",
-    "featured": true
+    "featured": true,
+    "badgeSource": ""
   },
   {
     "title": "Elysian",
@@ -121,7 +124,8 @@
     ],
     "pageLink": "/project/elysian",
     "bgColor": "#330022",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   },
   {
     "title": "Prohibition Time",
@@ -152,7 +156,8 @@
     ],
     "pageLink": "/project/prohibitiontime",
     "bgColor": "#002200",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   },
   {
     "title": "Moonsoup",
@@ -182,7 +187,8 @@
     ],
     "pageLink": "/project/moonsoup",
     "bgColor": "#220022",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   },
   {
     "title": "Keep Talking and Nobody Gets Murdered",
@@ -214,7 +220,8 @@
     ],
     "pageLink": "/other/gamejams",
     "bgColor": "#221100",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   },
   {
     "title": "When the Dusk Comes",
@@ -237,7 +244,8 @@
     "tags": ["Godot Engine", "System Design", "Game Design"],
     "pageLink": "/other/gamejams",
     "bgColor": "#222200",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   },
   {
     "title": "Coal in my Heart",
@@ -261,6 +269,7 @@
     "tags": ["Godot Engine", "Game Design", "Combat Design"],
     "pageLink": "/project/coalinmyheart",
     "bgColor": "#000022",
-    "featured": false
+    "featured": false,
+    "badgeSource": ""
   }
 ]

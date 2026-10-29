@@ -27,21 +27,12 @@
   min-height: 30px;
   width: 78%;
 }
-.ProjectMore {
-  margin-top: 2px;
-  width: 90px;
-  height: 15px;
-  padding: 5px;
-  background-color: white;
-  color: black;
-  font-size: 14px;
-  text-align: center;
-}
 
 .ProjectThumbnail {
   width: 100%;
   aspect-ratio: 16 / 9;
   margin-top: 10px;
+  position: relative;
 }
 
 .ProjectThumbnail video {
@@ -49,6 +40,13 @@
   height: 100%;
   object-fit: cover;
   opacity: 1;
+}
+
+.ProjectBadge {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 110px;
 }
 
 .ProjectOneliner {
@@ -99,8 +97,13 @@
   font-size: 16px;
 }
 
-.ProjectTags {
+.ProjectBottomLine {
   width: 100%;
+  display: flex;
+}
+
+.ProjectTags {
+  flex-grow: 6;
   background-color: #111111;
   margin-top: 10px;
 }
@@ -117,6 +120,19 @@
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.ProjectMore {
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* 

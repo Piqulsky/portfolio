@@ -30,7 +30,7 @@ function Resonance() {
       <div className="ProjectPageBanner">
         <video autoPlay loop muted>
           <source
-            src={process.env.PUBLIC_URL + "/Resonance/ResonanceShowreel.mp4"}
+            src={process.env.PUBLIC_URL + "/Shorts/ResonanceShort.mp4"}
             type="video/mp4"
           />
         </video>
@@ -106,30 +106,31 @@ function Resonance() {
             </div>
             <ul>
               <li>
-                I developed a complete and polished level design in Unreal
-                Engine 5 for the final product
+                As the level feature owner, I developed a complete and polished
+                level design in Unreal Engine 5 for the only level in the final
+                released product.
               </li>
               <li>
-                I brainstormed and concepted multiple possible level designs and
-                presented to the rest of the team
+                As the level designer, I brainstormed and concepted multiple
+                possible level designs and presented to the rest of the team.
               </li>
               <li>
-                I developed several paper prototypes and in-engine prototypes
-                using CubeGrid tool to search for gameplay beats fitting the
-                player experience
+                As the level designer, I developed several paper prototypes and
+                in-engine prototypes using CubeGrid tool to search for gameplay
+                beats fitting the player experience.
               </li>
               <li>
-                I scripted various level ingredients using Blueprints such as
-                sequenced doors and spawning systems to create intended gameplay
-                situations
+                As a technical level designer, I scripted various level
+                ingredients using Blueprints such as sequenced doors and
+                spawning systems to create intended gameplay situations.
               </li>
               <li>
-                I designed and coded in Blueprints a system for managing loading
-                level parts for optimization purposes
+                As a game developer, I designed and coded in Blueprints a system
+                for managing loading level parts for optimization purposes.
               </li>
               <li>
-                I collaborated closely with environment artists to ensure
-                cohesive level aesthetics
+                As a member of the level team, I collaborated closely with
+                environment artists to ensure cohesive level aesthetics.
               </li>
             </ul>
           </div>

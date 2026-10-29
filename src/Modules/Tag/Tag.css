@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   border-radius: 25px;
-  border: white 2px solid;
+  border: lightgray 2px solid;
 }
 
 .TagIcon {

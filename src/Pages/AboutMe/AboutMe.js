@@ -67,10 +67,10 @@ function AboutMe() {
         <div className="AboutMeText">
           <p>
             Hello there! I'm Michał and I'm a game designer specialized in level
-            design and creating player-centric experiences. I am experienced in
-            working in small multi-disciplinary teams, designing intractable
-            level ingredients, concept-to-shipped level development, and feature
-            ownership.
+            design and creating player-centric experiences through playtesting
+            and iteration. I am experienced in working in multi-disciplinary
+            teams, designing intractable level ingredients, concept-to-shipped
+            level development, and feature ownership.
           </p>
           <p>
             Now, I am studying game design at Breda University of Applied
@@ -85,11 +85,11 @@ function AboutMe() {
             necessary improvements to keep the player engaged in gameplay.
           </p>
           <p>
-            I treat myself as a level designer, but along the way I have
+            I have a passion for level design, but along the way I have
             experienced all kinds of bits and pieces of game design. From
             gameplay design, through narrative design, audio design, quest
-            design, technical design, to systems design, I have been able to try
-            it all in one way or another.
+            design, technical design, to systems design, I have been able to
+            make it all work in one way or another.
           </p>
         </div>
         <img
@@ -99,16 +99,22 @@ function AboutMe() {
       </div>
       <div className="AboutMeTitle">Achievements</div>
       <div className="AboutMeContent">
-        <img
-          className="AchievementImage"
-          src={process.env.PUBLIC_URL + "/Resonance/DGA-badge.png"}
-        />
-        <div className="AchievementText">
-          <p>Dutch Game Awards 2025 – Best Student Game Finalist</p>
-
-          <p>Issued by Dutch Game Association · Sep 2023</p>
-
-          <p>Obtained for my role as a Level Designer on “Resonance”</p>
+        <div className="AboutMeAchievement">
+          <img
+            className="AchievementImage"
+            src={process.env.PUBLIC_URL + "/Resonance/DGA-badge.png"}
+          />
+          <div className="AchievementText">
+            <p>
+              Dutch Game Awards 2025 – <i>Best Student Game Finalist</i>
+            </p>
+            <p>
+              Obtained for my role as a <b>Level Designer</b> on “Resonance”
+            </p>
+            <p>
+              Issued by Dutch Game Association · <i>September 2025</i>
+            </p>
+          </div>
         </div>
       </div>
       <div className="AboutMeTitle">Skills</div>

@@ -11,7 +11,7 @@
 }
 
 .NavExpansion .NavElement {
-  border: white 2px solid;
+  border: lightgray 2px solid;
   border-top: none;
   padding: 10px;
 }

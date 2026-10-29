@@ -59,7 +59,7 @@
 .ProjectPageHeader {
   font-size: 40px;
   text-align: center;
-  border-bottom: white solid 2px;
+  border-bottom: lightgray solid 2px;
   padding-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
-  border-bottom: white solid 2px;
+  border-bottom: lightgray solid 2px;
   margin: auto;
   margin-top: 20px;
   max-width: 70%;
@@ -206,7 +206,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 20px;
-  border-bottom: white solid 2px;
+  border-bottom: lightgray solid 2px;
 }
 
 .ProjectPageTimelinePieceContent {
@@ -215,8 +215,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-left: white solid 2px;
-  border-right: white solid 2px;
+  border-left: lightgray solid 2px;
+  border-right: lightgray solid 2px;
 }
 
 
@@ -229,7 +229,7 @@
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 10px;
-  border-bottom: white solid 2px;
+  border-bottom: lightgray solid 2px;
 }
 
 .ProjectPageSectionMultiContentPieceContent {

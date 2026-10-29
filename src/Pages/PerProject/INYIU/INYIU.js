@@ -27,7 +27,7 @@ function INYIU() {
       <div className="ProjectPageBanner">
         <video autoPlay loop muted>
           <source
-            src={process.env.PUBLIC_URL + "/Resonance/ResonanceShowreel.mp4"}
+            src={process.env.PUBLIC_URL + "/Shorts/INYIUShort.mp4"}
             type="video/mp4"
           />
         </video>
@@ -100,32 +100,35 @@ function INYIU() {
             </div>
             <ul>
               <li>
-                I developed a polished level design for 80% of the game’s only
-                level using Unreal Engine 5.
+                As a level designer, I developed a polished level design for 80%
+                of the game’s only level using Unreal Engine 5.
               </li>
               <li>
-                I developed the starting onboarding section that would introduce
-                a non-gamer to basic game mechanics, and also diegetic
-                onboarding for the abilities of all 5 characters in the game.
+                As a level designer, I developed the starting onboarding section
+                that would introduce a non-gamer to basic game mechanics, and
+                also diegetic onboarding for the abilities of all 5 characters
+                in the game.
               </li>
               <li>
-                I have setup the level to use the Houdini procedural tooling
-                created by the tech artist, to enable quick iteration, through
-                non-destructive modifications.
+                As a level designer, I have setup the level to use the Houdini
+                procedural tooling created by the tech artist, to enable quick
+                iteration, through non-destructive modifications.
               </li>
               <li>
-                I have iterated on my level design based on numerous playtests
-                with the target audience during various sessions, including
-                teenagers during the Night of the Nerds event.
+                As a game designer, I have iterated on my level design based on
+                numerous playtests with the target audience during various
+                sessions, including teenagers during the Night of the Nerds
+                event.
               </li>
               <li>
-                I brainstormed and concepted multiple possible level designs in
-                collaboration with the other level designer and presented to the
-                rest of the team.
+                As a member of the level team, I brainstormed and concepted
+                multiple possible level designs in collaboration with the other
+                level designer and presented to the rest of the team.
               </li>
               <li>
-                I collaborated closely with environment artists and tech artists
-                to ensure cohesive level aesthetics
+                As a member of the level team, I collaborated closely with
+                environment artists and tech artists to ensure cohesive level
+                aesthetics
               </li>
             </ul>
           </div>

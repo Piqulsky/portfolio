@@ -16,20 +16,27 @@ function Project({
   ytLink,
   pageLink,
   bgColor,
+  featured,
+  badgeSource,
 }) {
   return (
     <div className="Project">
       <div className="ProjectLeft">
         <div className="ProjectTitle" style={{ backgroundColor: bgColor }}>
           <div className="ProjectTitleText">"{title}"</div>
-          <NavLink to={pageLink} className="ProjectMore">
-            <div>Read More</div>
-          </NavLink>
         </div>
         <div className="ProjectThumbnail">
           <video autoPlay loop muted controls>
             <source src={process.env.PUBLIC_URL + thumbnail} type="video/mp4" />
           </video>
+          {badgeSource ? (
+            <img
+              className="ProjectBadge"
+              src={process.env.PUBLIC_URL + badgeSource}
+            />
+          ) : (
+            ""
+          )}
         </div>
         <div className="ProjectOneliner" style={{ backgroundColor: bgColor }}>
           {oneliner}
@@ -95,13 +102,19 @@ function Project({
           </div>
         </div> */}
       </div>
-      <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
-        {/* <div className="ProjectTagsTitle">Skills:</div> */}
-        <div className="ProjectTagsList">
-          {tags.slice(0, 7).map((tag, index) => (
-            <Tag name={tag} />
-          ))}
+      <div className="ProjectBottomLine">
+        <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
+          {/* <div className="ProjectTagsTitle">Skills:</div> */}
+          <div className="ProjectTagsList">
+            {tags.slice(0, 6).map((tag, index) => (
+              <Tag name={tag} />
+            ))}
+          </div>
         </div>
+
+        <NavLink to={pageLink} className="ProjectMore">
+          <div>Read More {">"}</div>
+        </NavLink>
       </div>
     </div>
   );
