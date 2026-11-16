@@ -1,6 +1,7 @@
 import { NavLink } from "react-router";
 import Tag from "../Tag/Tag";
 import "./Project.css";
+import { useState } from "react";
 
 function Project({
   title,
@@ -19,6 +20,8 @@ function Project({
   featured,
   badgeSource,
 }) {
+  const [tagLimit, setLiimit] = useState(window.innerWidth > 920 ? 6 : 2);
+
   return (
     <div className="Project">
       <div className="ProjectLeft">
@@ -106,7 +109,7 @@ function Project({
         <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
           {/* <div className="ProjectTagsTitle">Skills:</div> */}
           <div className="ProjectTagsList">
-            {tags.slice(0, 6).map((tag, index) => (
+            {tags.slice(0, tagLimit).map((tag, index) => (
               <Tag name={tag} />
             ))}
           </div>

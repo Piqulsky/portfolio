@@ -39,3 +39,9 @@
   right: 5%;
   width: 10vw;
 }
+
+@media (max-width: 920px) {
+  .ResonanceDGA {
+    width: 20vw;
+  }
+}

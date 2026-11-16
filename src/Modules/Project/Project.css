@@ -239,4 +239,13 @@
   .ProjectTitleText {
     width: 88%;
   }
+  .ProjectInformation {
+    display: none;
+  }
+  .ProjectRole {
+    display: none;
+  }
+  .ProjectMore {
+    margin-right: 0;
+  }
 }

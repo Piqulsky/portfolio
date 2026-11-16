@@ -109,12 +109,16 @@
     background-color: #111111;
     padding: 20px 40px 20px 40px;
     text-decoration: underline;
+    text-align: center;
   }
 
   .ContactMeMethod {
     margin-top: 20px;
+    justify-content: center;
   }
   .ContactName {
     margin-top: 20px;
+    text-align: center;
+    display: none;
   }
 }
