@@ -89,7 +89,13 @@
       "Implemented scripted sequences to trigger combat encounters in previously-visited areas. ",
       "Set-dressed and textured the level to create two distinct areas within the same location."
     ],
-    "tags": ["Trenchbroom", "Level Design", "Encounter Design", "Game Design"],
+    "tags": [
+      "Trenchbroom",
+      "Level Design",
+      "Encounter Design",
+      "Game Design",
+      "Set Dressing"
+    ],
     "pageLink": "/project/basetohell",
     "bgColor": "#221100",
     "featured": true,
