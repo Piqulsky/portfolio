@@ -133,6 +133,11 @@ function Resonance() {
                 environment artists to ensure cohesive level aesthetics.
               </li>
             </ul>
+            <div className="ProjectSectionEnd">
+              <div>●</div>
+              <div>●</div>
+              <div>●</div>
+            </div>
           </div>
         </div>
         <div className="ProjectPageSection">
@@ -188,6 +193,11 @@ function Resonance() {
                 src={process.env.PUBLIC_URL + "/Resonance/ResonanceFlow.png"}
               />
             </Zoom>
+          </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
           </div>
         </div>
 
@@ -270,6 +280,11 @@ function Resonance() {
               </video>
             </div>
           </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
+          </div>
         </div>
 
         <div className="ProjectPageSection">
@@ -336,6 +351,11 @@ function Resonance() {
               </video>
             </div>
           </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
+          </div>
         </div>
 
         <div className="ProjectPageSection">
@@ -376,14 +396,14 @@ function Resonance() {
               </video>
             </div>
             <div className="ProjectPageSectionContentPieceHeader">
-              Lack of Color
+              Desaturated Palette
             </div>
             <div className="ProjectPageDoubleMedia">
               <p>
                 One of the challenges of the noir art style was the general lack
-                of colour, except for the red. That’s why I decided to have the
-                throwable objects in the room highlight themselves when in
-                range.
+                of colour, except for the red. To increase readability I decided
+                to have the throwable objects in the room highlight themselves
+                when in range.
               </p>
               <video autoPlay loop muted controls>
                 <source
@@ -404,6 +424,11 @@ function Resonance() {
                 />
               </video>
             </div>
+          </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
           </div>
         </div>
 
@@ -489,6 +514,11 @@ function Resonance() {
                 />
               </video>
             </div>
+          </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
           </div>
         </div>
 
@@ -601,6 +631,11 @@ function Resonance() {
                 />
               </video>
             </div>
+          </div>
+          <div className="ProjectSectionEnd">
+            <div>●</div>
+            <div>●</div>
+            <div>●</div>
           </div>
         </div>
 

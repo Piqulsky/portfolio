@@ -20,7 +20,7 @@ function Project({
   featured,
   badgeSource,
 }) {
-  const [tagLimit, setLiimit] = useState(window.innerWidth > 920 ? 6 : 2);
+  const [tagLimit, setLiimit] = useState(window.innerWidth > 920 ? 6 : 3);
 
   return (
     <div className="Project">
@@ -44,11 +44,34 @@ function Project({
         <div className="ProjectOneliner" style={{ backgroundColor: bgColor }}>
           {oneliner}
         </div>
+        <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
+          {/* <div className="ProjectTagsTitle">Skills:</div> */}
+          <div className="ProjectTagsList">
+            {tags.slice(0, tagLimit).map((tag, index) => (
+              <Tag name={tag} />
+            ))}
+          </div>
+        </div>
       </div>
       <div className="ProjectRight">
         <div className="ProjectRole" style={{ backgroundColor: bgColor }}>
           <b>Role:</b> <i>{role}</i>
         </div>
+
+        <div
+          className="ProjectResponsibilities"
+          style={{ backgroundColor: bgColor }}
+        >
+          <div className="ProjectResponsibilitiesTitle">
+            Responsibilities highlights:
+          </div>
+          <ul>
+            {responsibilities.map((responsibility, index) => (
+              <li key={index}>{responsibility}</li>
+            ))}
+          </ul>
+        </div>
+
         <div
           className="ProjectInformation"
           style={{ backgroundColor: bgColor }}
@@ -69,18 +92,9 @@ function Project({
             ))}
           </p>
         </div>
-        <div
-          className="ProjectResponsibilities"
-          style={{ backgroundColor: bgColor }}
-        >
-          <div className="ProjectResponsibilitiesTitle">
-            Responsibilities highlights:
-          </div>
-          {responsibilities.map((responsibility, index) => (
-            <p key={index}>{responsibility}</p>
-          ))}
-        </div>
-
+        <NavLink to={pageLink}>
+          <div className="ProjectMore">Read More {">"}</div>
+        </NavLink>
         {/* <div className="ProjectButtons">
           {steamLink && (
             <div className="ProjectButtonSteam">
@@ -104,20 +118,6 @@ function Project({
             <NavLink to={pageLink}>Info</NavLink>
           </div>
         </div> */}
-      </div>
-      <div className="ProjectBottomLine">
-        <div className="ProjectTags" style={{ backgroundColor: bgColor }}>
-          {/* <div className="ProjectTagsTitle">Skills:</div> */}
-          <div className="ProjectTagsList">
-            {tags.slice(0, tagLimit).map((tag, index) => (
-              <Tag name={tag} />
-            ))}
-          </div>
-        </div>
-
-        <NavLink to={pageLink} className="ProjectMore">
-          <div>Read More {">"}</div>
-        </NavLink>
       </div>
     </div>
   );

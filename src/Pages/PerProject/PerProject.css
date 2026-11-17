@@ -56,7 +56,17 @@
 }
 
 .ProjectPageSection {
+  margin-top: 100px;
+}
+
+.ProjectSectionEnd {
+  margin: 0 auto;
   margin-top: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .ProjectPageHeader {

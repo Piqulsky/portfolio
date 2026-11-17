@@ -32,7 +32,7 @@
 
 @media (max-width: 920px) {
   .Navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 70px;
   }

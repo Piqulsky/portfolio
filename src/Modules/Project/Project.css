@@ -54,7 +54,6 @@
   padding: 19px;
   font-size: 14px;
   background-color: #111111;
-  flex-grow: 1;
 }
 
 .ProjectRole {
@@ -123,11 +122,9 @@
 }
 
 .ProjectMore {
-  flex-grow: 1;
   margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 20px;
+  padding: 15px;
+  font-size: 25px;
   background-color: lightgray;
   color: black;
   font-size: 16px;
