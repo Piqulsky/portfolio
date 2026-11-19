@@ -1,41 +1,5 @@
 [
   {
-    "title": "Resonance",
-    "thumbnail": "/Shorts/ResonanceShort.mp4",
-    "oneliner": "A fast twin-stick action game. Use your telekinetic voice to lift and control objects and enemies, allowing you to shield yourself and fight! Escape the facility trying to keep you under its control.",
-    "role": "Level Designer",
-    "information": [
-      "Team size: 11 developers",
-      "Genre: Twin-stick action game",
-      "Duration: ~10 weeks, shipped"
-    ],
-    "platforms": {
-      "Steam": "https://store.steampowered.com/app/2707370/Resonance/",
-      "Itch": "https://buas.itch.io/resonance"
-    },
-    "responsibilities": [
-      "Developed a complete and polished level for a top-doihlwn twin-stick action game.",
-      "Iterated on the level design to improve gameplay flow and encourage emergent behaviours.",
-      "Scripted various level ingredients in Blueprints to create ameplay situations that interact with telekinetic abilities.",
-      "Rapidly developed several prototypes to search for gameplay beats fitting the player experience."
-    ],
-    "tags": [
-      "Unreal Engine 5",
-      "Level Design",
-      "Scrum",
-      "Visual Scripting",
-      "Perforce",
-      "Game Design",
-      "Lighting",
-      "Miro",
-      "Taiga"
-    ],
-    "pageLink": "/project/resonance",
-    "bgColor": "#220000",
-    "featured": true,
-    "badgeSource": "/Resonance/DGA.png"
-  },
-  {
     "title": "It's Not You It's Us",
     "thumbnail": "/Shorts/INYIUShort.mp4",
     "oneliner": "A 3D point-and-click adventure about animal characters coming together to make their town a better place. Explore a cozy town as you meet the Urbanimals, and discover that taking care of the environment is something nobody can do on their own.",
@@ -49,7 +13,7 @@
       "Itch": "https://buas.itch.io/inyiu"
     },
     "responsibilities": [
-      "Developed 80% of a complete and polished level featuring multiple playable characters.",
+      "Developed a complete and polished level featuring multiple playable characters.",
       "Iterated on the level design based on playtests to improve puzzles' flow and clarity.",
       "Integrated a quest system and quest characters into the level to create a progression within the level using Unreal Engine 5.",
       "Designed non-linear progression to encourage exploration of the space and focus on player agenda."
@@ -69,6 +33,42 @@
     "bgColor": "#002200",
     "featured": true,
     "badgeSource": ""
+  },
+  {
+    "title": "Resonance",
+    "thumbnail": "/Shorts/ResonanceShort.mp4",
+    "oneliner": "A fast twin-stick action game. Use your telekinetic voice to lift and control objects and enemies, allowing you to shield yourself and fight! Escape the facility trying to keep you under its control.",
+    "role": "Level Designer",
+    "information": [
+      "Team size: 11 developers",
+      "Genre: Twin-stick action game",
+      "Duration: ~10 weeks, shipped"
+    ],
+    "platforms": {
+      "Steam": "https://store.steampowered.com/app/2707370/Resonance/",
+      "Itch": "https://buas.itch.io/resonance"
+    },
+    "responsibilities": [
+      "Developed a complete and polished level for a top-down twin-stick action game.",
+      "Iterated on the level design to improve gameplay flow and encourage emergent behaviours.",
+      "Scripted various level ingredients in Blueprints to create ameplay situations that interact with telekinetic abilities.",
+      "Rapidly developed several prototypes to search for gameplay beats fitting the player experience."
+    ],
+    "tags": [
+      "Unreal Engine 5",
+      "Level Design",
+      "Scrum",
+      "Visual Scripting",
+      "Perforce",
+      "Game Design",
+      "Lighting",
+      "Miro",
+      "Taiga"
+    ],
+    "pageLink": "/project/resonance",
+    "bgColor": "#220000",
+    "featured": true,
+    "badgeSource": "/Resonance/DGA.png"
   },
   {
     "title": "Base To Hell",
@@ -105,7 +105,7 @@
     "title": "Elysian",
     "thumbnail": "/Shorts/ElysianShort.mp4",
     "oneliner": "Short dystopian psychological thriller about addiction and escapism. Two friends clash when their views on the euphoric drug create a rift between themselves.",
-    "role": "Environment Artist",
+    "role": "Set Dresser",
     "information": [
       "Team size: 10 people",
       "Genre: Dytopian Sci-Fi",
@@ -115,8 +115,8 @@
       "YouTube": "https://youtu.be/X7mu7ezXYtQ?is=1IsckvqF_u6xyhUi"
     },
     "responsibilities": [
-      "Created a dystopian environment out of modular assets to display at LED Volume.",
-      "Integrated the virtual environment with the features of the physical set",
+      "Created a dystopian environment out of pre-existing modular assets to display at LED Volume.",
+      "Integrated the virtual environment on a 8m x 3,5m displayed background with the features of the physical set.",
       "Lit the environment in Unreal Engine 5 to realise the intended atmosphere on set.",
       "Animated the 3D assets to create scripted transitions between different realities in sync with changes on physical set."
     ],
@@ -211,10 +211,9 @@
     },
     "responsibilities": [
       "Designed an asymetrical gameplay experience for two player sharing identical goals, but have access to limited sets information each.",
-      "Created a level designed to house a large amount of roaming NPCs.",
-      "Collaborated on the puzzle design based on the information held by one of the players.",
-      "Designed for a VR experience, creating gameplay elements that lend into tactility, exploration and communication between the players.",
-      "Developed a full experience under 48 hour limit."
+      "Created a level based on a mansion with a ballroom designed to house a large amount of roaming NPCs.",
+      "Collaborated on the puzzle design based on the information exchanged between the two players with different POVs.",
+      "Designed for a VR experience, creating gameplay elements that lend into tactility, exploration and communication between the players."
     ],
     "tags": [
       "Unreal Engine 5",
@@ -244,8 +243,7 @@
       "Designed upgrade and automation systems around a singular core mechanic of button clicking.",
       "Implemented a scoring system based on various progressions available to the player.",
       "Created a UI design for the clicker game genre expanded by numerous systems.",
-      "Iterated on the gameplay experience, UI/UX, and balance based on the playtests.",
-      "Developed a full experience under 24 hour limit."
+      "Iterated on the gameplay experience, UI/UX, and balance based on the playtests."
     ],
     "tags": ["Godot Engine", "System Design", "Game Design"],
     "pageLink": "/other/gamejams",
@@ -270,9 +268,15 @@
       "Designed and implemented two types of enemies, each with a unique behavior that encourages different playstyles.",
       "Created a boss fight consisting of three phases, each with a variety of telegraphed attacks.",
       "Designed and implemented a platforming traversal system with multiple movement-based abilities and simple combat system.",
-      "Created a 2D platformer level featuring alternative pathways and enemy spawners."
+      "Created a 2D platformer level featuring alternative progression pathways and endless enemy spawners."
     ],
-    "tags": ["Godot Engine", "Game Design", "Combat Design"],
+    "tags": [
+      "Godot Engine",
+      "Game Design",
+      "Combat Design",
+      "Level Design",
+      "Encounter Design"
+    ],
     "pageLink": "/project/coalinmyheart",
     "bgColor": "#000022",
     "featured": false,
